@@ -4,29 +4,29 @@ export default function AboutSection() {
 
   return (
     <section
-      className="relative py-24 bg-gradient-to-b from-[#020617] to-[#020617] overflow-hidden"
+      className="relative py-24 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] overflow-hidden"
       id="about"
     >
       {/* BACKGROUND GLOWS */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-[var(--primary)]/10 blur-3xl rounded-full" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-[var(--accent)]/10 blur-3xl rounded-full" />
+      <div className="absolute top-0 right-0 w-96 h-96 bg-[var(--gold)]/10 blur-3xl rounded-full" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-white/5 blur-3xl rounded-full" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-16">
         {/* TITLE */}
         <div className="max-w-3xl mb-16" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-extrabold text-white uppercase">
             About{" "}
-            <span style={{ color: "var(--primary)" }}>
+            <span style={{ color: "var(--gold)" }}>
               N&J MOT Testing station 
             </span>
           </h2>
 
           <div
             className="w-24 h-[3px] mt-4"
-            style={{ backgroundColor: "var(--accent)" }}
+            style={{ backgroundColor: "var(--gold)" }}
           />
 
-          <p className="mt-6 text-lg text-[#CBD5E1] leading-relaxed">
+          <p className="mt-6 text-lg text-[var(--muted)] leading-relaxed">
             We are a trusted, family-run MOT and vehicle service centre with over 20 years of experience, delivering professional workmanship, honest advice, and reliable results. From MOT testing to advanced diagnostics, we keep your vehicle safe, reliable, and fully road legal.
           </p>
         </div>
@@ -50,21 +50,21 @@ export default function AboutSection() {
             </div>
 
             {/* FLOATING STAT – LEFT */}
-            <div className="absolute bottom-6 left-6 bg-[#0F172A] border border-white/10 rounded-md p-5 shadow-xl z-20">
+            <div className="absolute bottom-6 left-6 bg-black/80 border border-white/10 rounded-md p-5 shadow-xl z-20">
               <p className="text-2xl font-bold text-white">
                 10+ Years
               </p>
-              <p className="text-xs text-[#94A3B8]">
+              <p className="text-xs text-[var(--muted)]">
                 Industry Experience
               </p>
             </div>
 
             {/* FLOATING STAT – RIGHT */}
-            <div className="absolute top-6 right-6 bg-[#0F172A] border border-white/10 rounded-md p-5 shadow-xl z-20">
+            <div className="absolute top-6 right-6 bg-black/80 border border-white/10 rounded-md p-5 shadow-xl z-20">
               <p className="text-2xl font-bold text-white">
                 1000+
               </p>
-              <p className="text-xs text-[#94A3B8]">
+              <p className="text-xs text-[var(--muted)]">
                 Vehicles Tested
               </p>
             </div>
@@ -88,12 +88,12 @@ export default function AboutSection() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="p-6 rounded-md bg-white/5 border border-white/10 hover:border-[var(--accent)] transition"
+                className="p-6 rounded-md bg-white/5 border border-white/10 hover:border-[var(--gold)] transition"
               >
-                <h4 className="text-white font-semibold mb-2">
+                <h3 className="text-white font-semibold mb-2">
                   {item.title}
-                </h4>
-                <p className="text-sm text-[#94A3B8]">
+                </h3>
+                <p className="text-sm text-[var(--muted)]">
                   {item.desc}
                 </p>
               </div>

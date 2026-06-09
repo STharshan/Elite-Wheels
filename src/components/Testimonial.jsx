@@ -85,7 +85,7 @@ export default function Testimonial() {
   });
 
   return (
-    <section id="testimonial" className="w-full py-10 dark:bg-black transition-colors duration-500">
+    <section id="testimonial" className="w-full py-10 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors duration-500">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         {/* Heading Section */}
@@ -100,17 +100,17 @@ export default function Testimonial() {
             />
 
             {/* Stars + review count badge */}
-            <div className="inline-flex items-center gap-3 justify-center bg-[#7E7E7E]/10 dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-full px-5 py-2 backdrop-blur-sm">
-              <span className="text-black dark:text-white text-xs font-bold tracking-widest uppercase">
+            <div className="inline-flex items-center gap-3 justify-center bg-white/5 border border-white/10 rounded-full px-5 py-2 backdrop-blur-sm">
+              <span className="text-white text-xs font-bold tracking-widest uppercase">
                 5/5 (650+ Reviews)
               </span>
             </div>
           </div>
 
-          <h2 className="text-gray-900 dark:text-white text-3xl sm:text-4xl md:text-5xl font-bold uppercase tracking-widest transition-colors mb-4">
+          <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold uppercase tracking-widest transition-colors mb-4">
             Customer Stories
           </h2>
-          <p className="text-gray-600 dark:text-gray-400 font-medium text-sm sm:text-base max-w-2xl mx-auto">
+          <p className="text-[var(--muted)] font-medium text-sm sm:text-base max-w-2xl mx-auto">
             Real feedback from local Nottingham drivers who've experienced the Dent Monkey difference.
           </p>
         </div>
@@ -126,18 +126,18 @@ export default function Testimonial() {
                 {group.map((item, i) => (
                   <div
                     key={i}
-                    className="bg-[#7E7E7E] p-8 rounded-3xl border border-white/10 shadow-xl flex-1 flex flex-col justify-between transition-all duration-300"
+                    className="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-xl flex-1 flex flex-col justify-between transition-all duration-300"
                   >
                     <div>
                       {/* Stars */}
                       <div className="flex gap-1 mb-6">
                         {[...Array(5)].map((_, j) => (
-                          <FaStar key={j} className="text-yellow-400 text-lg" />
+                          <FaStar key={j} className="text-[var(--gold)] text-lg" />
                         ))}
                       </div>
 
                       {/* Review Body */}
-                      <p className="text-[15px] lg:text-[16px] text-gray-100 leading-relaxed italic mb-8">
+                      <p className="text-[15px] lg:text-[16px] text-white leading-relaxed italic mb-8">
                         "{item.review}"
                       </p>
                     </div>
@@ -147,7 +147,7 @@ export default function Testimonial() {
                       <p className="font-bold text-white text-[16px] uppercase tracking-wider">
                         {item.name}
                       </p>
-                      <p className="text-[10px] text-gray-300 uppercase tracking-[0.2em] font-bold mt-1">Verified Customer</p>
+                      <p className="text-[10px] text-[var(--muted)] uppercase tracking-[0.2em] font-bold mt-1">Verified Customer</p>
                     </div>
                   </div>
                 ))}
@@ -162,7 +162,7 @@ export default function Testimonial() {
                 key={i}
                 onClick={() => setCurrent(i)}
                 className={`transition-all duration-500 rounded-full 
-                  ${i === current ? "w-10 h-1.5 bg-[#7E7E7E] dark:bg-white" : "w-2 h-1.5 bg-gray-300 dark:bg-gray-800"}`}
+                  ${i === current ? "w-10 h-1.5 bg-[var(--gold)]" : "w-2 h-1.5 bg-white/20"}`}
                 aria-label={`Go to slide ${i + 1}`}
               />
             ))}

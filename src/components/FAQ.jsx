@@ -27,15 +27,15 @@ const FAQSection = () => {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <section className="bg-white py-8 sm:py-10 md:py-12">
+    <section className="bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] py-8 sm:py-10 md:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16">
 
         {/* LEFT */}
         <div className="lg:sticky lg:top-8 lg:self-start">
-          <span className="block text-[#F21B23] font-semibold mb-3 sm:mb-4 text-sm sm:text-base">
+          <span className="block text-[var(--gold)] font-semibold mb-3 sm:mb-4 text-sm sm:text-base">
             FAQ
           </span>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-black leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white leading-tight">
             Frequently Asked Questions
           </h2>
         </div>
@@ -48,22 +48,22 @@ const FAQSection = () => {
             return (
               <div
                 key={index}
-                className="bg-gray-50 rounded-2xl overflow-hidden transition"
+                className="bg-white/5 rounded-2xl overflow-hidden transition border border-white/10"
               >
                 {/* HEADER */}
                 <button
                   onClick={() => toggle(index)}
                   className="w-full flex items-center justify-between gap-3 px-4 sm:px-6 py-4 sm:py-5 text-left"
                 >
-                  <span className="font-semibold text-black text-sm sm:text-base leading-snug">
+                  <span className="font-semibold text-white text-sm sm:text-base leading-snug">
                     {item.q}
                   </span>
 
                   <span
                     className={`flex-shrink-0 w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-full border transition-transform duration-300 ${
                       isOpen
-                        ? "rotate-45 border-[#F21B23] text-[#F21B23]"
-                        : "border-slate-300 text-slate-600"
+                        ? "rotate-45 border-[var(--gold)] text-[var(--gold)]"
+                        : "border-white/20 text-[var(--muted)]"
                     }`}
                   >
                     <Plus size={16} className="sm:hidden" />
@@ -79,7 +79,7 @@ const FAQSection = () => {
                       : "grid-rows-[0fr] opacity-0"
                   }`}
                 >
-                  <div className="overflow-hidden px-4 sm:px-6 pb-4 sm:pb-5 text-slate-600 text-sm sm:text-base leading-relaxed">
+                  <div className="overflow-hidden px-4 sm:px-6 pb-4 sm:pb-5 text-[var(--muted)] text-sm sm:text-base leading-relaxed">
                     {item.a}
                   </div>
                 </div>

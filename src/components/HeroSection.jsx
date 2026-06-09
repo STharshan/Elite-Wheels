@@ -1,13 +1,10 @@
- 
-import React, { useEffect } from "react";
+import React from "react";
 import {
   FaPhoneAlt,
-  FaWhatsapp,
   FaMapMarkerAlt,
   FaTools,
   FaClock,
 } from "react-icons/fa";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function HeroSection() {
@@ -16,7 +13,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative min-h-screen py-30 bg-black text-white  flex items-center"
+      className="relative min-h-screen py-30 bg-black text-white flex items-center"
     >
       {/* Background */}
       <div className="absolute inset-0">
@@ -39,14 +36,14 @@ export default function HeroSection() {
             className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-wide uppercase"
           >
             Nottingham{" "}
-            <span className="text-red-600">Carbon Cleaning</span>
+            <span className="text-[var(--gold)]">Carbon Cleaning</span>
           </h1>
 
           {/* Subheading */}
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-xl sm:text-2xl text-gray-300 uppercase tracking-wide"
+            className="text-xl sm:text-2xl text-[var(--muted)] uppercase tracking-wide"
           >
             Mobile Engine Carbon Cleaning Specialists
           </p>
@@ -55,7 +52,7 @@ export default function HeroSection() {
           <p
             data-aos="fade-up"
             data-aos-delay="200"
-            className="text-gray-400 max-w-2xl mx-auto leading-relaxed"
+            className="text-[var(--muted)] max-w-2xl mx-auto leading-relaxed"
           >
             Professional mobile engine carbon cleaning delivered to your door.
             Improve performance, fuel efficiency, and engine reliability across
@@ -72,7 +69,7 @@ export default function HeroSection() {
           >
             <a
               href="tel:07752549740"
-              className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-700 px-8 py-3 rounded-md text-lg font-semibold uppercase tracking-wide transition"
+              className="inline-flex items-center justify-center gap-2 bg-[var(--gold)] hover:bg-[var(--gold-deep)] px-8 py-3 rounded-md text-lg font-semibold uppercase tracking-wide text-black transition"
             >
               <FaPhoneAlt />
               Call Now
@@ -87,32 +84,32 @@ export default function HeroSection() {
             data-aos-delay="500"
             className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6"
           >
-            <div className="bg-black/60 border border-gray-600/40 rounded-lg p-6">
-              <FaTools className="text-red-600 text-3xl mb-2 mx-auto" />
+            <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6">
+              <FaTools className="text-[var(--gold)] text-3xl mb-2 mx-auto" />
               <p className="uppercase tracking-wide font-semibold">
                 Fully Mobile
               </p>
-              <p className="text-sm text-gray-400">
+              <p className="text-sm text-[var(--muted)]">
                 We come to you
               </p>
             </div>
 
-            <div className="bg-black/60 border border-gray-600/40 rounded-lg p-6">
-              <FaClock className="text-red-600 text-3xl mb-2 mx-auto" />
+            <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6">
+              <FaClock className="text-[var(--gold)] text-3xl mb-2 mx-auto" />
               <p className="uppercase tracking-wide font-semibold">
                 Fast Service
               </p>
-              <p className="text-sm text-gray-400">
+              <p className="text-sm text-[var(--muted)]">
                 Same-day available
               </p>
             </div>
 
-            <div className="bg-black/60 border border-gray-600/40 rounded-lg p-6">
-              <FaMapMarkerAlt className="text-red-600 text-3xl mb-2 mx-auto" />
+            <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6">
+              <FaMapMarkerAlt className="text-[var(--gold)] text-3xl mb-2 mx-auto" />
               <p className="uppercase tracking-wide font-semibold">
                 Local Experts
               </p>
-              <p className="text-sm text-gray-400">
+              <p className="text-sm text-[var(--muted)]">
                 Nottingham area
               </p>
             </div>

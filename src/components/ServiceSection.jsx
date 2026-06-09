@@ -155,10 +155,10 @@ const ServiceSection = () => {
         <div id='services' className="w-full min-h-screen scroll-m-15 dark:bg-black flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 transition-colors duration-500">
 
             <div className="mb-8 md:mb-12 text-center">
-                <h2 className="text-gray-900 dark:text-white text-2xl sm:text-3xl md:text-4xl font-bold uppercase tracking-widest transition-colors">
+                <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold uppercase tracking-widest transition-colors">
                     Our Services
                 </h2>
-                <p className="text-gray-600 dark:text-gray-400 font-medium text-xs sm:text-sm mt-2">
+                <p className="text-[var(--muted)] font-medium text-xs sm:text-sm mt-2">
                     Showing {activeCard + 1} of {cards.length}
                 </p>
             </div>
@@ -166,21 +166,21 @@ const ServiceSection = () => {
             <div className="w-full max-w-[1400px] mb-6 md:mb-0">
                 {isMobile ? (
                     <div className="relative">
-                        <button onClick={handlePrevious} className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 z-30 bg-white dark:bg-gray-800 rounded-full p-2 shadow-lg">
-                            <svg className="w-5 h-5 text-gray-900 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <button onClick={handlePrevious} className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 z-30 bg-black rounded-full p-2 shadow-lg border border-white/10">
+                            <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
                             </svg>
                         </button>
 
-                        <button onClick={handleNext} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 z-30 bg-white dark:bg-gray-800 rounded-full p-2 shadow-lg">
-                            <svg className="w-5 h-5 text-gray-900 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <button onClick={handleNext} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 z-30 bg-black rounded-full p-2 shadow-lg border border-white/10">
+                            <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                             </svg>
                         </button>
 
-                        <div className="relative overflow-hidden rounded-2xl bg-[#7E7E7E] border border-gray-200 dark:border-gray-800 shadow-xl min-h-[550px]">
-                            <div className="absolute top-0 left-0 w-full h-1 bg-gray-100/20 overflow-hidden z-20">
-                                <div className="absolute left-0 top-0 h-full bg-white transition-all duration-100 ease-linear" style={{ width: `${progress}%` }} />
+                        <div className="relative overflow-hidden rounded-2xl bg-white/5 border border-white/10 shadow-xl min-h-[550px]">
+                            <div className="absolute top-0 left-0 w-full h-1 bg-white/10 overflow-hidden z-20">
+                                <div className="absolute left-0 top-0 h-full bg-[var(--gold)] transition-all duration-100 ease-linear" style={{ width: `${progress}%` }} />
                             </div>
 
                             <div className="p-6 sm:p-8 flex flex-col gap-4 h-full">
@@ -192,7 +192,7 @@ const ServiceSection = () => {
                                         {cards[activeCard].title}
                                     </h3>
                                 </div>
-                                <p className="text-gray-100 text-sm leading-relaxed">
+                                <p className="text-[var(--muted)] text-sm leading-relaxed">
                                     {cards[activeCard].description}
                                 </p>
 
@@ -200,11 +200,11 @@ const ServiceSection = () => {
                                     {renderMedia(cards[activeCard])}
                                 </div>
 
-                                <Link to={cards[activeCard].link} className="w-full bg-white text-black py-3 rounded-lg font-bold text-center hover:bg-gray-200 transition-colors mt-2">
+                                <Link to={cards[activeCard].link} className="w-full bg-[var(--gold)] text-black py-3 rounded-lg font-bold text-center hover:bg-[var(--gold-deep)] transition-colors mt-2">
                                     LEARN MORE
                                 </Link>
 
-                                <div className="text-[10px] font-bold tracking-widest text-gray-200 uppercase mt-auto">
+                                <div className="text-[10px] font-bold tracking-widest text-[var(--muted)] uppercase mt-auto">
                                     {cards[activeCard].tags}
                                 </div>
                             </div>
@@ -218,11 +218,11 @@ const ServiceSection = () => {
                                 <div
                                     key={card.originalIndex}
                                     onClick={() => handleCardClick(card.originalIndex)}
-                                    className={`relative overflow-hidden rounded-3xl cursor-pointer transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] bg-[#7E7E7E] border border-gray-200 dark:border-gray-800 ${isFirst ? 'flex-[2.5]' : 'flex-1'} hover:shadow-2xl group`}
+                                    className={`relative overflow-hidden rounded-3xl cursor-pointer transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] bg-white/5 border border-white/10 ${isFirst ? 'flex-[2.5]' : 'flex-1'} hover:shadow-2xl group`}
                                 >
                                     {isFirst && (
                                         <div className="absolute bottom-0 left-0 w-1.5 h-full bg-black/10 overflow-hidden z-20">
-                                            <div className="absolute bottom-0 left-0 w-full bg-white transition-all duration-100 ease-linear" style={{ height: `${progress}%` }} />
+                                            <div className="absolute bottom-0 left-0 w-full bg-[var(--gold)] transition-all duration-100 ease-linear" style={{ height: `${progress}%` }} />
                                         </div>
                                     )}
 
@@ -231,13 +231,13 @@ const ServiceSection = () => {
                                             <div className={`text-5xl lg:text-6xl font-black transition-all duration-700 ${isFirst ? 'text-white/20 scale-110' : 'text-white/10 scale-90'}`}>
                                                 {card.number}
                                             </div>
-                                            <h3 className={`text-lg lg:text-2xl font-bold transition-colors duration-500 mt-2 ${isFirst ? 'text-white' : 'text-gray-300'}`}>
+                                            <h3 className={`text-lg lg:text-2xl font-bold transition-colors duration-500 mt-2 ${isFirst ? 'text-white' : 'text-[var(--muted)]'}`}>
                                                 {card.title}
                                             </h3>
                                         </div>
 
                                         <div className={`flex-1 flex flex-col justify-between transition-all duration-700 ${isFirst ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10 pointer-events-none'}`}>
-                                            <p className="text-gray-100 text-sm lg:text-base leading-relaxed">
+                                            <p className="text-[var(--muted)] text-sm lg:text-base leading-relaxed">
                                                 {card.description}
                                             </p>
 
@@ -246,11 +246,11 @@ const ServiceSection = () => {
                                             </div>
 
                                             <div className="flex justify-between items-center">
-                                                <div className="text-[9px] lg:text-[10px] font-bold tracking-widest max-w-xs text-gray-200 uppercase">
+                                                <div className="text-[9px] lg:text-[10px] font-bold tracking-widest max-w-xs text-[var(--muted)] uppercase">
                                                     {card.tags}
                                                 </div>
 
-                                                <Link to={card.link} className="bg-white text-black px-6 py-2.5 rounded-lg text-xs font-bold hover:bg-gray-200 transition-colors">
+                                                <Link to={card.link} className="bg-[var(--gold)] text-black px-6 py-2.5 rounded-lg text-xs font-bold hover:bg-[var(--gold-deep)] transition-colors">
                                                     LEARN MORE
                                                 </Link>
                                             </div>
@@ -269,7 +269,7 @@ const ServiceSection = () => {
                     <button
                         key={i}
                         onClick={() => { setActiveCard(i); setProgress(0); }}
-                        className={`h-1.5 transition-all duration-500 rounded-full cursor-pointer ${activeCard === i ? 'w-8 bg-gray-600 dark:bg-gray-400' : 'w-2 bg-gray-300 dark:bg-gray-800'}`}
+                        className={`h-1.5 transition-all duration-500 rounded-full cursor-pointer ${activeCard === i ? 'w-8 bg-[var(--gold)]' : 'w-2 bg-white/20'}`}
                         aria-label={`Go to service ${i + 1}`}
                     />
                 ))}

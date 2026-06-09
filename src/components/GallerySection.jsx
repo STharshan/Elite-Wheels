@@ -181,15 +181,15 @@ const WorkGallery = () => {
   };
 
   return (
-    <section className="py-10 sm:py-14 lg:py-16 bg-gray-50  dark:bg-black transition-colors">
+    <section className="py-10 sm:py-14 lg:py-16 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors">
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Title */}
         <div className="text-center mb-10">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
             Our Work Gallery
           </h2>
-          <p className="mt-2 text-gray-600 dark:text-gray-300 text-sm sm:text-base max-w-xl mx-auto">
+          <p className="mt-2 text-[var(--muted)] text-sm sm:text-base max-w-xl mx-auto">
             See the amazing transformations of classic cars through our restoration process
           </p>
         </div>
@@ -200,7 +200,7 @@ const WorkGallery = () => {
             <div
               key={index}
               onClick={() => openModal(card, index)}
-              className="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-gray-200 dark:border-gray-700 cursor-pointer transform hover:scale-[1.03]"
+              className="group bg-white/5 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-white/10 cursor-pointer transform hover:scale-[1.03]"
             >
               <div className="flex flex-col sm:flex-row relative">
                 {/* BEFORE IMAGE */}
@@ -211,7 +211,7 @@ const WorkGallery = () => {
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   />
-                  <span className="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 text-xs rounded-full shadow">
+                  <span className="absolute top-2 left-2 bg-[var(--gold)] text-black px-2 py-1 text-xs rounded-full shadow">
                     Before
                   </span>
                 </div>
@@ -224,7 +224,7 @@ const WorkGallery = () => {
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   />
-                  <span className="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 text-xs rounded-full shadow">
+                  <span className="absolute top-2 right-2 bg-[var(--gold)] text-black px-2 py-1 text-xs rounded-full shadow">
                     After
                   </span>
                 </div>
@@ -238,23 +238,23 @@ const WorkGallery = () => {
         {/* MODAL */}
         {selectedCard && (
           <div className="fixed inset-0 bg-black/80 backdrop-blur-md z-[999] flex items-center justify-center p-4">
-            <div className="relative bg-white dark:bg-gray-800 rounded-2xl w-full max-w-6xl max-h-[92vh] overflow-auto shadow-2xl">
+            <div className="relative bg-black rounded-2xl w-full max-w-6xl max-h-[92vh] overflow-auto shadow-2xl border border-white/10">
 
               {/* Header */}
-              <div className="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <div className="flex justify-between items-center p-4 border-b border-white/10">
+                <h3 className="text-lg font-semibold text-white">
                   Our Work Gallery
                 </h3>
 
                 <div className="flex items-center gap-3">
-                  <span className="text-sm text-gray-500 dark:text-gray-300">
+                  <span className="text-sm text-[var(--muted)]">
                     {selectedCard.index + 1} / {cardData.length}
                   </span>
                   <button
                     onClick={() => setSelectedCard(null)}
-                    className="p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition"
+                    className="p-2 hover:bg-white/10 rounded-full transition"
                   >
-                    <X className="w-5 h-5 text-gray-900 dark:text-white" />
+                    <X className="w-5 h-5 text-white" />
                   </button>
                 </div>
               </div>
@@ -263,7 +263,7 @@ const WorkGallery = () => {
               <div className="p-4 sm:p-6 flex flex-col lg:flex-row gap-6">
                 {/* BEFORE IMAGE */}
                 <div className="flex-1">
-                  <span className="bg-red-500 text-white px-3 py-1 rounded text-sm">Before</span>
+                  <span className="bg-[var(--gold)] text-black px-3 py-1 rounded text-sm">Before</span>
                   <div className="w-full mt-3 rounded-lg overflow-hidden aspect-video">
                     <img
                       src={selectedCard.beforeImageUrl}
@@ -275,7 +275,7 @@ const WorkGallery = () => {
 
                 {/* AFTER IMAGE */}
                 <div className="flex-1">
-                  <span className="bg-green-500 text-white px-3 py-1 rounded text-sm">After</span>
+                  <span className="bg-[var(--gold)] text-black px-3 py-1 rounded text-sm">After</span>
                   <div className="w-full mt-3 rounded-lg overflow-hidden aspect-video">
                     <img
                       src={selectedCard.afterImageUrl}
@@ -288,7 +288,7 @@ const WorkGallery = () => {
 
               {/* CATEGORY TITLE */}
               <div className="text-center p-4 pt-0">
-                <span className="inline-block bg-[#8b1a1a] text-white px-4 py-2 rounded-lg text-sm sm:text-base font-medium break-words max-w-[90%]">
+                <span className="inline-block bg-[var(--gold)] text-black px-4 py-2 rounded-lg text-sm sm:text-base font-medium break-words max-w-[90%]">
                   {selectedCard.category}
                 </span>
               </div>
@@ -296,15 +296,15 @@ const WorkGallery = () => {
               {/* Navigation Arrows */}
               <button
                 onClick={() => navigateModal("prev")}
-                className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/70 dark:bg-gray-700/70 p-3 rounded-full"
+                className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/10 p-3 rounded-full border border-white/10"
               >
-                <ChevronLeft className="w-6 h-6 text-gray-900 dark:text-white" />
+                <ChevronLeft className="w-6 h-6 text-white" />
               </button>
               <button
                 onClick={() => navigateModal("next")}
-                className="absolute right-3 top-1/2 -translate-y-1/2 bg-white/70 dark:bg-gray-700/70 p-3 rounded-full"
+                className="absolute right-3 top-1/2 -translate-y-1/2 bg-white/10 p-3 rounded-full border border-white/10"
               >
-                <ChevronRight className="w-6 h-6 text-gray-900 dark:text-white" />
+                <ChevronRight className="w-6 h-6 text-white" />
               </button>
 
             </div>

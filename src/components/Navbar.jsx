@@ -11,7 +11,7 @@ const AnimatedLink = ({ text, href, onClick }) => (
     <span className="block text-white transition-transform duration-300 group-hover:-translate-y-full">
       {text}
     </span>
-    <span className="block text-[#F21B23] absolute left-0 top-full transition-transform duration-300 group-hover:-translate-y-full">
+    <span className="block text-[var(--gold)] absolute left-0 top-full transition-transform duration-300 group-hover:-translate-y-full">
       {text}
     </span>
   </a>
@@ -88,7 +88,7 @@ const Navbar = () => {
             <div className="hidden lg:flex items-center space-x-4">
               <a
                 href="tel:+447851823807"
-                className="px-4 xl:px-6 py-2.5 xl:py-3 border-2 border-white text-white text-sm xl:text-base rounded-full hover:bg-[#F21B23] hover:border-[#F21B23] transition-all duration-300 whitespace-nowrap"
+              className="px-4 xl:px-6 py-2.5 xl:py-3 border-2 border-white text-white text-sm xl:text-base rounded-full hover:bg-[var(--gold)] hover:border-[var(--gold)] hover:text-black transition-all duration-300 whitespace-nowrap"
               >
                 Call +44 7851 823807
               </a>
@@ -145,7 +145,7 @@ const Navbar = () => {
                   key={link.text}
                   to={link.href}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-4 py-3 text-lg text-white hover:bg-white/10 hover:text-[#F21B23] rounded-lg transition-all duration-200 transform hover:translate-x-2 ${
+                  className={`block px-4 py-3 text-lg text-white hover:bg-white/10 hover:text-[var(--gold)] rounded-lg transition-all duration-200 transform hover:translate-x-2 ${
                     isOpen ? `animate-slide-in-${index + 1}` : ""
                   }`}
                 >
@@ -159,7 +159,7 @@ const Navbar = () => {
           <div className="p-4 sm:p-6 border-t border-white/10 space-y-3">
             <a
               href="tel:+447851823807"
-              className="block w-full px-6 py-3 bg-[#F21B23] text-white text-center rounded-full hover:bg-[#d01820] transition-all duration-300 font-medium"
+              className="block w-full px-6 py-3 bg-[var(--gold)] text-black text-center rounded-full hover:bg-[var(--gold-deep)] transition-all duration-300 font-medium"
             >
               Call +44 7851 823807
             </a>

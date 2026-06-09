@@ -57,15 +57,15 @@ Message: ${formData.message}
   };
 
   return (
-    <section id="contact" className="w-full py-14 bg-white dark:bg-black transition-colors">
+    <section id="contact" className="w-full py-14 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-semibold text-black dark:text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-semibold text-white mb-4">
             Get In Touch
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg text-[var(--muted)] max-w-2xl mx-auto">
             Have questions? Contact us today for a free quote or to schedule your repair.
           </p>
         </div>
@@ -73,15 +73,15 @@ Message: ${formData.message}
         <div className="grid lg:grid-cols-2 gap-10">
 
           {/* LEFT INFO */}
-          <div className="bg-[#7E7E7E] p-8 rounded-2xl shadow-lg space-y-8">
+          <div className="bg-white/5 p-8 rounded-2xl shadow-lg space-y-8 border border-white/10">
 
             <div>
-              <h3 className="text-xl font-semibold mb-2 dark:text-white">Address</h3>
+              <h3 className="text-xl font-semibold mb-2 text-white">Address</h3>
               <a
                 href="https://maps.app.goo.gl/zfEjJqpf1DrrLhNz5"
                 target="_blank"
                 rel="noreferrer"
-                className="text-gray-900 hover:underline"
+                className="text-[var(--muted)] hover:text-[var(--gold)] hover:underline"
               >
                 Unit 14, Broxtowe Park Business Centre,
                 Calverton Drive, Strelley, Nottingham NG8 6QP
@@ -89,18 +89,18 @@ Message: ${formData.message}
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-2 dark:text-white">Phone</h3>
+              <h3 className="text-xl font-semibold mb-2 text-white">Phone</h3>
               <a
                 href={`tel:+${whatsappNumber}`}
-                className="text-gray-900 hover:underline"
+                className="text-[var(--muted)] hover:text-[var(--gold)] hover:underline"
               >
                 07775 397007
               </a>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-2 dark:text-white">Hours</h3>
-              <div className="text-gray-900 space-y-1">
+              <h3 className="text-xl font-semibold mb-2 text-white">Hours</h3>
+              <div className="text-[var(--muted)] space-y-1">
                 <p>Monday - Friday: 7:00 AM - 6:00 PM</p>
                 <p>Saturday: 10:00 AM - 2:00 PM</p>
                 <p>Sunday: 10:00 AM - 1:00 PM</p>
@@ -108,13 +108,13 @@ Message: ${formData.message}
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-3 dark:text-white">
+              <h3 className="text-xl font-semibold mb-3 text-white">
                 Payment Methods
               </h3>
               <div className="grid grid-cols-3 gap-3">
 
                 {/* Google Pay */}
-                <div className="px-3 py-3 bg-white dark:bg-black rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 36" width="82" height="32">
                     <text x="0" y="25"  fontSize="17" fontWeight="500" fill="#5F6368">G</text>
                     <text x="12" y="25"  fontSize="17" fontWeight="500" fill="#EA4335">o</text>
@@ -127,7 +127,7 @@ Message: ${formData.message}
                 </div>
 
                 {/* Apple Pay */}
-                <div className="px-3 py-3 bg-white dark:bg-black rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 32" width="68" height="30">
                     <path d="M14 6.8c1-1.2 1.6-2.9 1.4-4.6-1.5.1-3.2 1-4.2 2.2-.9 1.1-1.7 2.8-1.5 4.4 1.6.2 3.2-.7 4.3-2z" fill="#000"/>
                     <path d="M15.5 9.2c-2.3-.1-4.3 1.3-5.4 1.3-1.1 0-2.8-1.2-4.7-1.2C3 9.3.8 10.7-.4 12.8c-2.5 4.3-.6 10.7 1.8 14.2 1.2 1.7 2.6 3.6 4.4 3.5 1.7-.1 2.4-1.1 4.5-1.1 2.1 0 2.7 1.1 4.5 1.1 1.9-.1 3.1-1.7 4.3-3.4.7-1.1 1.3-2.3 1.7-3.6-4.3-1.6-5-7.9-.5-10.2-1.1-1.4-2.8-2.2-4.3-2.1z" fill="#000"/>
@@ -136,14 +136,14 @@ Message: ${formData.message}
                 </div>
 
                 {/* Visa */}
-                <div className="px-3 py-3 bg-white dark:bg-black rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 30" width="64" height="26">
                     <text x="2" y="22"  fontSize="24" fontWeight="800" fontStyle="italic" fill="#1A1F71" letterSpacing="2">VISA</text>
                   </svg>
                 </div>
 
                 {/* Mastercard */}
-                <div className="px-3 py-3 bg-white dark:bg-black rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 36" width="56" height="34">
                     <circle cx="20" cy="18" r="14" fill="#EB001B"/>
                     <circle cx="38" cy="18" r="14" fill="#F79E1B"/>
@@ -152,7 +152,7 @@ Message: ${formData.message}
                 </div>
 
                 {/* Contactless */}
-                <div className="px-3 py-3 bg-white dark:bg-black rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="38" height="38" fill="none" strokeLinecap="round">
                     <circle cx="20" cy="20" r="3" fill="#5F6368"/>
                     <path d="M20 20 a8 8 0 0 0 0-0" stroke="none"/>
@@ -167,7 +167,7 @@ Message: ${formData.message}
           </div>
 
           {/* RIGHT FORM */}
-          <div className="bg-[#7E7E7E] p-8 rounded-2xl shadow-lg">
+          <div className="bg-white/5 p-8 rounded-2xl shadow-lg border border-white/10">
             <form className="space-y-6" onSubmit={handleSubmit}>
 
               {/* Name & Email */}
@@ -181,7 +181,7 @@ Message: ${formData.message}
                 <InputField label="Phone" place="Enter Your Phone Number" name="phone" type="tel" value={formData.phone} onChange={handleChange} />
 
                 <div>
-                  <label className="block font-medium mb-2 dark:text-white">
+                  <label className="block font-medium mb-2 text-white">
                     Select Service *
                   </label>
                   <select
@@ -189,7 +189,7 @@ Message: ${formData.message}
                     value={formData.service}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-black text-black dark:text-white focus:ring-2 focus:ring-black dark:focus:ring-white outline-none transition"
+                    className="w-full px-4 py-3 rounded-lg border border-white/10 bg-black text-white focus:ring-2 focus:ring-[var(--gold)] outline-none transition"
                   >
                     <option value="">Choose a service</option>
                     {services.map((service) => (
@@ -209,7 +209,7 @@ Message: ${formData.message}
 
               {/* Message */}
               <div>
-                <label className="block font-medium mb-2 dark:text-white">
+                <label className="block font-medium mb-2 text-white">
                   Message *
                 </label>
                 <textarea
@@ -219,19 +219,19 @@ Message: ${formData.message}
                   onChange={handleChange}
                   required
                   placeholder="Tell us about your vehicle issue..."
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-black text-black dark:text-white focus:ring-2 focus:ring-black dark:focus:ring-white outline-none resize-none transition"
+                  className="w-full px-4 py-3 rounded-lg border border-white/10 bg-black text-white focus:ring-2 focus:ring-[var(--gold)] outline-none resize-none transition"
                 />
               </div>
 
               {/* Button */}
               <button
                 type="submit"
-                className="w-full bg-black dark:bg-white text-white dark:text-black font-semibold py-4 rounded-lg hover:scale-[1.02] active:scale-[0.98] transition-transform duration-200"
+                className="w-full bg-[var(--gold)] text-black font-semibold py-4 rounded-lg hover:bg-[var(--gold-deep)] hover:scale-[1.02] active:scale-[0.98] transition-transform duration-200"
               >
                 Send Message
               </button>
 
-              <p className="text-xs text-center text-gray-900">
+              <p className="text-xs text-center text-[var(--muted)]">
                 By submitting this form, you agree to us processing your details to respond to your enquiry. Your information is handled securely and in line with our Privacy Policy.
               </p>
             </form>
@@ -246,7 +246,7 @@ Message: ${formData.message}
 function InputField({ label, name, type = "text", place, value, onChange, required }) {
   return (
     <div>
-      <label className="block font-medium mb-2 dark:text-white">
+      <label className="block font-medium mb-2 text-white">
         {label}
       </label>
       <input
@@ -256,7 +256,7 @@ function InputField({ label, name, type = "text", place, value, onChange, requir
         onChange={onChange}
         required={required}
         placeholder={place}
-        className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-black text-black dark:text-white focus:ring-2 focus:ring-black dark:focus:ring-white outline-none transition"
+        className="w-full px-4 py-3 rounded-lg border border-white/10 bg-black text-white focus:ring-2 focus:ring-[var(--gold)] outline-none transition"
       />
     </div>
   );
