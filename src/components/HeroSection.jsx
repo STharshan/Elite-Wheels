@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <img
           src="/hero-engine.jpg"
-          alt="Carbon Cleaning"
+          alt="Elite Wheels Glasgow workshop background"
           className="w-full h-full object-cover"
           loading="lazy"
         />
@@ -35,8 +35,8 @@ export default function HeroSection() {
             data-aos="fade-up"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-wide uppercase"
           >
-            Nottingham{" "}
-            <span className="text-[var(--gold)]">Carbon Cleaning</span>
+            Elite Wheels{" "}
+            <span className="text-[var(--gold)]">Glasgow</span>
           </h1>
 
           {/* Subheading */}
@@ -45,7 +45,7 @@ export default function HeroSection() {
             data-aos-delay="100"
             className="text-xl sm:text-2xl text-[var(--muted)] uppercase tracking-wide"
           >
-            Mobile Engine Carbon Cleaning Specialists
+            Premium wheel refurbishment and repair specialists
           </p>
 
           {/* Description */}
@@ -54,9 +54,9 @@ export default function HeroSection() {
             data-aos-delay="200"
             className="text-[var(--muted)] max-w-2xl mx-auto leading-relaxed"
           >
-            Professional mobile engine carbon cleaning delivered to your door.
-            Improve performance, fuel efficiency, and engine reliability across
-            Nottingham and surrounding areas.
+            Premium wheel refurbishment, repairs, and refinishing delivered
+            with a black, white, and gold finish across Glasgow and surrounding
+            areas.
           </p>
 
           {/* Service Area Badge */}
@@ -68,11 +68,11 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row justify-center gap-4 pt-4"
           >
             <a
-              href="tel:07752549740"
+              href="tel:07909445101"
               className="inline-flex items-center justify-center gap-2 bg-[var(--gold)] hover:bg-[var(--gold-deep)] px-8 py-3 rounded-md text-lg font-semibold uppercase tracking-wide text-black transition"
             >
               <FaPhoneAlt />
-              Call Now
+              Call 07909 445101
             </a>
 
            
@@ -110,7 +110,7 @@ export default function HeroSection() {
                 Local Experts
               </p>
               <p className="text-sm text-[var(--muted)]">
-                Nottingham area
+                Glasgow area
               </p>
             </div>
           </div>

@@ -138,19 +138,19 @@ const PrivacyPolicy = () => {
           </p>
           <div className="text-[var(--muted)]">
             <p>
-              <strong>Tomas Exteriors Professional Window Tinting</strong>
+              <strong>Elite Wheels Glasgow</strong>
             </p>
             <p>
               Email:{" "}
               <a
-                href="mailto:Tomasexteriors@gmail.com"
+                href="mailto:Tune-itscotland@hotmail.com"
                 className="text-[var(--gold)] hover:underline"
               >
-                Tomasexteriors@gmail.com
+                Tune-itscotland@hotmail.com
               </a>
             </p>
-            <p>Phone: +44 7851 823807</p>
-            <p>Address: Unit 16 Croft St, Bury BL9 7BG, United Kingdom</p>
+            <p>Phone: 07909 445101</p>
+            <p>Address: 15 Carmyle Avenue, Glasgow, United Kingdom</p>
           </div>
           <p className="mt-2 text-[var(--muted)]">
             If you are not satisfied with our response, you have the right to

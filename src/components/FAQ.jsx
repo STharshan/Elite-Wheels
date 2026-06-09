@@ -3,20 +3,20 @@ import { Plus } from "lucide-react";
 
 const faqs = [
   {
-    q: "How long does window tinting take?",
-    a: "Most window tinting services are completed within a few hours, depending on the vehicle type and tint selection.",
+    q: "How long does wheel refurbishment take?",
+    a: "Most wheel refurbishment jobs are completed within a few hours to a day, depending on the wheel condition and finish.",
   },
   {
-    q: "Can headlights be restored instead of replaced?",
-    a: "Yes. Headlight restoration is often effective unless the lens is severely damaged or cracked.",
+    q: "Can kerb rash be repaired?",
+    a: "Yes. Kerb rash and light scuffs can usually be repaired and refinished for a clean factory-style result.",
   },
   {
-    q: "Do you offer headlight crack repair?",
-    a: "Yes. We provide professional headlight crack repair to prevent moisture buildup and further damage.",
+    q: "Do you offer custom finishes?",
+    a: "Yes. We can help with gloss black, gold accent, and other premium finish options.",
   },
   {
-    q: "What causes headlight condensation?",
-    a: "Condensation is usually caused by seal damage or temperature changes. We offer targeted condensation repair solutions.",
+    q: "Can you match my current wheel colour?",
+    a: "Yes. We can work to match existing finishes or create a fresh look that suits your vehicle.",
   },
 ];
 

@@ -17,7 +17,7 @@ export default function AboutSection() {
           <h2 className="text-3xl md:text-4xl font-extrabold text-white uppercase">
             About{" "}
             <span style={{ color: "var(--gold)" }}>
-              N&J MOT Testing station 
+              Elite Wheels Glasgow
             </span>
           </h2>
 
@@ -27,7 +27,10 @@ export default function AboutSection() {
           />
 
           <p className="mt-6 text-lg text-[var(--muted)] leading-relaxed">
-            We are a trusted, family-run MOT and vehicle service centre with over 20 years of experience, delivering professional workmanship, honest advice, and reliable results. From MOT testing to advanced diagnostics, we keep your vehicle safe, reliable, and fully road legal.
+            We are a trusted wheel refurbishment and repair specialist
+            delivering professional workmanship, honest advice, and reliable
+            results. From refinishing to smart repairs, we keep your wheels
+            looking sharp, premium, and road ready.
           </p>
         </div>
 
@@ -74,12 +77,12 @@ export default function AboutSection() {
           <div className="space-y-6 order-1 lg:order-2" data-aos="fade-left">
             {[
               {
-                title: "Certified MOT Testing",
-                desc: "MOT Class 4 testing using modern approved equipment.",
+                title: "Premium Wheel Finishes",
+                desc: "Gloss black, gold accents, and custom refinishing tailored to your style.",
               },
               {
-                title: "Advanced Diagnostics",
-                desc: "Accurate fault finding, engine tuning & wet belt services.",
+                title: "Precision Repairs",
+                desc: "Curb rash, scuffs, and cosmetic damage restored with care and detail.",
               },
               {
                 title: "Customer-First Service",

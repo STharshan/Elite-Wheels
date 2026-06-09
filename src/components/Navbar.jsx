@@ -72,8 +72,8 @@ const Navbar = () => {
             <Link to="/" className="flex items-center flex-shrink-0">
               <img
                 src="/logo.png"
-                alt="Aquafix Logo"
-                className="h-12 sm:h-16 lg:h-20 w-auto object-contain"
+                alt="Elite Wheels Glasgow Logo"
+                className="h-12 w-auto object-contain"
               />
             </Link>
 
@@ -87,10 +87,10 @@ const Navbar = () => {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center space-x-4">
               <a
-                href="tel:+447851823807"
+                href="tel:07909445101"
               className="px-4 xl:px-6 py-2.5 xl:py-3 border-2 border-white text-white text-sm xl:text-base rounded-full hover:bg-[var(--gold)] hover:border-[var(--gold)] hover:text-black transition-all duration-300 whitespace-nowrap"
               >
-                Call +44 7851 823807
+                Call 07909 445101
               </a>
             </div>
 
@@ -125,7 +125,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between p-4 sm:p-6 border-b border-white/10">
             <img
               src="/logo.png"
-              alt="Aquafix Logo"
+                alt="Elite Wheels Glasgow Logo"
               className="h-12 w-auto object-contain"
             />
             <button
@@ -158,10 +158,10 @@ const Navbar = () => {
           {/* Mobile CTA */}
           <div className="p-4 sm:p-6 border-t border-white/10 space-y-3">
             <a
-              href="tel:+447851823807"
+              href="tel:07909445101"
               className="block w-full px-6 py-3 bg-[var(--gold)] text-black text-center rounded-full hover:bg-[var(--gold-deep)] transition-all duration-300 font-medium"
             >
-              Call +44 7851 823807
+              Call 07909 445101
             </a>
             <Link
               to="/contact"

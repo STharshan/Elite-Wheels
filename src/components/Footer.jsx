@@ -11,19 +11,16 @@ const Footer = () => {
           {/* BRAND */}
           <div className="flex flex-col flex-1">
             <span className="text-2xl font-bold mb-4">
-              Tomas Exteriors Professional Window Tinting
+              Elite Wheels Glasgow
             </span>
 
             <p className="text-[var(--muted)] leading-relaxed mb-6 max-w-sm">
-              Tomas Exteriors is dedicated to enhancing vehicles and properties with premium window tinting solutions, delivering superior quality, style, and lasting protection for every customer.
+              At Elite Wheels Glasgow, we combine expert craftsmanship with premium finishes to restore your alloy wheels to their best. Quality workmanship, fast turnaround, and attention to detail are at the heart of everything we do.
             </p>
 
             {/* SOCIALS */}
             <div className="flex gap-5 mt-auto">
-              <a href="https://www.instagram.com/window_tint911/" target="_blank" className="hover:text-[var(--gold)] transition text-2xl">
-                <FaInstagram />
-              </a>
-              <a href="https://web.facebook.com/windowtint911?_rdc=1&_rdr#" target="_blank" className="hover:text-[var(--gold)] transition text-2xl">
+              <a href="https://www.facebook.com/people/Elite-Wheels-Glasgow/61588326973623/" target="_blank" className="hover:text-[var(--gold)] transition text-2xl">
                 <FaFacebookF />
               </a>
             </div>
@@ -57,28 +54,28 @@ const Footer = () => {
             <ul className="space-y-4 text-[var(--muted)] md:text-right">
               {/* Clickable phone */}
               <li>
-                <a href="tel: +447851823807" className="hover:text-white transition-colors">
-                   +44 7851 823807
+                <a href="tel:07909445101" className="hover:text-white transition-colors">
+                   07909 445101
                 </a>
               </li>
 
               {/* Clickable email */}
               <li>
-                <a href="mailto:Tomasexteriors@gmail.com" className="hover:text-white transition-colors">
-                  Tomasexteriors@gmail.com
+                <a href="mailto:Tune-itscotland@hotmail.com" className="hover:text-white transition-colors">
+                  Tune-itscotland@hotmail.com
                 </a>
               </li>
 
               {/* Clickable address (Google Maps link) */}
               <li>
                 <a
-                  href="https://maps.app.goo.gl/GPi6frsETUX1cu4VA"
+                  href="https://maps.google.com/?q=15+Carmyle+Avenue,+Glasgow,+United+Kingdom"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  Unit 16 Croft St, Bury<br />
-                  BL9 7BG, United Kingdom
+                  15 Carmyle Avenue<br />
+                  Glasgow, United Kingdom
                 </a>
               </li>
             </ul>
@@ -93,7 +90,7 @@ const Footer = () => {
       {/* BOTTOM */}
       <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[var(--muted)]">
         <div className="text-center md:text-left">
-          © {new Date().getFullYear()} Tomas Exteriors Professional Window Tinting. All rights reserved.
+          © {new Date().getFullYear()} Elite Wheels Glasgow. All rights reserved.
         </div>
 
         <div>Powered by <a href="https://www.ansely.co.uk/" className="hover:underline hover:text-[var(--gold)]">Ansely</a></div>

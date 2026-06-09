@@ -11,7 +11,7 @@ export default function ContactSection() {
     message: "",
   });
 
-  const whatsappNumber = "447775397007";
+  const whatsappNumber = "447909445101";
 
   const services = [
     "Car Park Ding Removal Service",
@@ -66,7 +66,7 @@ Message: ${formData.message}
             Get In Touch
           </h2>
           <p className="text-lg text-[var(--muted)] max-w-2xl mx-auto">
-            Have questions? Contact us today for a free quote or to schedule your repair.
+            Have questions? Contact Elite Wheels Glasgow today for a free quote or to schedule your repair.
           </p>
         </div>
 
@@ -78,32 +78,31 @@ Message: ${formData.message}
             <div>
               <h3 className="text-xl font-semibold mb-2 text-white">Address</h3>
               <a
-                href="https://maps.app.goo.gl/zfEjJqpf1DrrLhNz5"
+                href="https://maps.google.com/?q=15+Carmyle+Avenue,+Glasgow,+United+Kingdom"
                 target="_blank"
                 rel="noreferrer"
                 className="text-[var(--muted)] hover:text-[var(--gold)] hover:underline"
               >
-                Unit 14, Broxtowe Park Business Centre,
-                Calverton Drive, Strelley, Nottingham NG8 6QP
+                15 Carmyle Avenue, Glasgow, United Kingdom
               </a>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold mb-2 text-white">Phone</h3>
               <a
-                href={`tel:+${whatsappNumber}`}
+                href="tel:07909445101"
                 className="text-[var(--muted)] hover:text-[var(--gold)] hover:underline"
               >
-                07775 397007
+                07909 445101
               </a>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold mb-2 text-white">Hours</h3>
               <div className="text-[var(--muted)] space-y-1">
-                <p>Monday - Friday: 7:00 AM - 6:00 PM</p>
-                <p>Saturday: 10:00 AM - 2:00 PM</p>
-                <p>Sunday: 10:00 AM - 1:00 PM</p>
+                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                <p>Saturday: 9:00 AM - 2:00 PM</p>
+                <p>Sunday: Closed</p>
               </div>
             </div>
 

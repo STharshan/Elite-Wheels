@@ -40,8 +40,8 @@ const TermsConditions = () => {
             </h2>
             <p className="text-[var(--muted)]">
               All content on this website, including text, images, graphics, and
-              logos, is owned by or licensed to Tomas Exteriors Professional
-              Window Tinting. You may view, download, and print content for
+              logos, is owned by or licensed to Elite Wheels Glasgow. You may
+              view, download, and print content for
               personal use only. You must not copy, reproduce, or distribute
               our website content without prior written consent.
             </p>
@@ -111,19 +111,19 @@ const TermsConditions = () => {
             </p>
             <div className="text-[var(--muted)]">
               <p>
-                <strong>Tomas Exteriors Professional Window Tinting</strong>
+                <strong>Elite Wheels Glasgow</strong>
               </p>
               <p>
                 Email:{" "}
                 <a
-                  href="mailto:Tomasexteriors@gmail.com"
+                  href="mailto:Tune-itscotland@hotmail.com"
                   className="text-[var(--gold)] hover:underline"
                 >
-                  Tomasexteriors@gmail.com
+                  Tune-itscotland@hotmail.com
                 </a>
               </p>
-              <p>Phone: +44 7851 823807</p>
-              <p>Address: Unit 16 Croft St, Bury BL9 7BG, United Kingdom</p>
+              <p>Phone: 07909 445101</p>
+              <p>Address: 15 Carmyle Avenue, Glasgow, United Kingdom</p>
             </div>
           </section>
         </div>

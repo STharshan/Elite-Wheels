@@ -11,42 +11,42 @@ const testimonials = [
   {
     name: "gareth noon",
     review:
-      "I had Dent Monkey out (Nicky) to do a small dent on my rear arch. He's got all the latest equipment to make the repair faultless. A truly amazing gent and suberb quailty of work. Will defo recommend to others, and use again as and when needed. 10/10.",
+      "I had Elite Wheels Glasgow out to do a small repair on my rear arch. The finish was faultless and the workmanship was excellent. I would definitely recommend them and use them again.",
   },
   {
     name: "James InEngland1",
     review:
-      "Absolutely brilliant genuine service from Dent Monkey! I had recently bought a cult car, the only issue was the amount of dings and dents present in the bodywork that had accumulated over the years.",
+      "Absolutely brilliant genuine service from Elite Wheels Glasgow! I had recently bought a car and the wheels needed serious attention. The results were better than I expected.",
   },
   {
     name: "Ray Smitham",
     review:
-      "I highly recommend Nicky at Dent Monkey for the excellent job he did on my Mazda 6 tailgate. Also for his prompt and reliable service & great communication.",
+      "I highly recommend Elite Wheels Glasgow for the excellent job they did on my vehicle. Prompt, reliable service and great communication throughout.",
   },
   {
     name: "Oscar Monk",
     review:
-      "Really good experience with Nicky and his ability to repair a bad dent on my Golf GTI. Great communication, a fair price, quality workmanship and a nice bloke too! Thanks again",
+      "Really good experience with the team and their ability to restore a damaged wheel on my Golf GTI. Great communication, a fair price, and quality workmanship.",
   },
   {
     name: "Katie Beeston",
     review:
-      "Fantastic service from Nicky. He fixed my car quickly and at a great price. I needed the job doing quickly and he was super helpful and accommodating. I wouldn't hesitate to recommend him to friends and family. Thanks Nicky!",
+      "Fantastic service from Elite Wheels Glasgow. They completed the work quickly at a great price and were super helpful and accommodating throughout.",
   },
   {
     name: "TigerTigerPantherFox",
     review:
-      "Nicky at Dent Monkey came to remove two dents on my Audi A3 and the results are phenomenal. I would highly recommend him to friends and family. My father had a couple supermarket dents removed on his car which is why I contacted him to come & remove the dents on my car. Excellent results!!",
+      "Elite Wheels Glasgow came out to sort two issues on my Audi A3 and the results are phenomenal. I would highly recommend them to friends and family.",
   },
   {
     name: "Raheem Zameer",
     review:
-      "Nicky was very friendly and helpful and got a dent out of my Mercedes. He came to the car and was all done within 20 minutes of arrival. Couldn't recommend anyone better!",
+      "The team was very friendly and helpful and got my Mercedes wheel looking great again. They were quick, efficient, and easy to deal with.",
   },
   {
     name: "Real Perspectives",
     review:
-      "Dented the door of my wife's brand new car, thank God for Dent Monkey who saved my life. Superb Job, excellent communication and fast and friendly service. Genuinely outstanding.",
+      "I had an issue with my wife’s car and Elite Wheels Glasgow saved the day. Superb job, excellent communication, and fast, friendly service.",
   },
 ];
 
@@ -111,7 +111,7 @@ export default function Testimonial() {
             Customer Stories
           </h2>
           <p className="text-[var(--muted)] font-medium text-sm sm:text-base max-w-2xl mx-auto">
-            Real feedback from local Nottingham drivers who've experienced the Dent Monkey difference.
+            Real feedback from local Glasgow drivers who've experienced the Elite Wheels Glasgow difference.
           </p>
         </div>
 
