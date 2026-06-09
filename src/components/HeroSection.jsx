@@ -35,7 +35,7 @@ export default function HeroSection() {
             data-aos="fade-up"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-wide uppercase"
           >
-            Elite Wheels{" "}
+            Premium Alloy Wheel Refurbishment in{" "}
             <span className="text-[var(--gold)]">Glasgow</span>
           </h1>
 
@@ -45,7 +45,7 @@ export default function HeroSection() {
             data-aos-delay="100"
             className="text-xl sm:text-2xl text-[var(--muted)] uppercase tracking-wide"
           >
-            Premium wheel refurbishment and repair specialists
+            Powder Coating • Diamond Cutting • Kerb Repairs • Custom Finishes
           </p>
 
           {/* Description */}
@@ -54,9 +54,7 @@ export default function HeroSection() {
             data-aos-delay="200"
             className="text-[var(--muted)] max-w-2xl mx-auto leading-relaxed"
           >
-            Premium wheel refurbishment, repairs, and refinishing delivered
-            with a black, white, and gold finish across Glasgow and surrounding
-            areas.
+            Restore your wheels to a factory-fresh finish with Elite Wheels Glasgow. From premium powder coating and precision diamond cutting to crack repairs and full wheel refurbishments, we deliver high-quality craftsmanship with fast turnaround times and exceptional attention to detail.
           </p>
 
           {/* Service Area Badge */}
@@ -67,13 +65,11 @@ export default function HeroSection() {
             data-aos-delay="400"
             className="flex flex-col sm:flex-row justify-center gap-4 pt-4"
           >
-            <a
-              href="tel:07909445101"
-              className="inline-flex items-center justify-center gap-2 bg-[var(--gold)] hover:bg-[var(--gold-deep)] px-8 py-3 rounded-md text-lg font-semibold uppercase tracking-wide text-black transition"
+            <div
+              className="inline-flex items-center justify-center gap-2 bg-[var(--gold)] hover:bg-[var(--gold-deep)] px-8 py-3 rounded-md text-lg font-semibold tracking-wide text-black transition"
             >
-              <FaPhoneAlt />
-              Call 07909 445101
-            </a>
+              Get a Free Quote
+            </div>
 
            
           </div>
@@ -87,30 +83,30 @@ export default function HeroSection() {
             <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6">
               <FaTools className="text-[var(--gold)] text-3xl mb-2 mx-auto" />
               <p className="uppercase tracking-wide font-semibold">
-                Fully Mobile
+                Premium Finishes
               </p>
               <p className="text-sm text-[var(--muted)]">
-                We come to you
+                Factory-quality results
               </p>
             </div>
 
             <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6">
               <FaClock className="text-[var(--gold)] text-3xl mb-2 mx-auto" />
               <p className="uppercase tracking-wide font-semibold">
-                Fast Service
+                Fast Turnaround
               </p>
               <p className="text-sm text-[var(--muted)]">
-                Same-day available
+                Same-day options available
               </p>
             </div>
 
             <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6">
               <FaMapMarkerAlt className="text-[var(--gold)] text-3xl mb-2 mx-auto" />
               <p className="uppercase tracking-wide font-semibold">
-                Local Experts
+                Glasgow Specialists
               </p>
               <p className="text-sm text-[var(--muted)]">
-                Glasgow area
+                Trusted local experts
               </p>
             </div>
           </div>

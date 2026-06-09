@@ -14,13 +14,16 @@ export default function ContactSection() {
   const whatsappNumber = "447909445101";
 
   const services = [
-    "Car Park Ding Removal Service",
-    "Small Dent Removal Service",
-    "Large Dent Removal Service",
-    "Complex Large Dent Repair Service",
-    "Crease Dent Repair Service",
-    "Bumper Dent Removal Service",
-    "Hail Damage Removal Service"
+    "Powder Coating",
+    "Diamond Cutting",
+    "Wheel Refurbishment",
+    "Wheel Straightening",
+    "Crack Repairs",
+    "Colour Changes",
+    "Brake Caliper Painting",
+    "Kerb Damage Repairs",
+    "Custom Wheel Colours"
+
   ];
 
   const handleChange = (e) => {
@@ -78,7 +81,7 @@ Message: ${formData.message}
             <div>
               <h3 className="text-xl font-semibold mb-2 text-white">Address</h3>
               <a
-                href="https://maps.google.com/?q=15+Carmyle+Avenue,+Glasgow,+United+Kingdom"
+                href="https://maps.app.goo.gl/QhPQjNmN28A3c5gh8"
                 target="_blank"
                 rel="noreferrer"
                 className="text-[var(--muted)] hover:text-[var(--gold)] hover:underline"
@@ -100,8 +103,12 @@ Message: ${formData.message}
             <div>
               <h3 className="text-xl font-semibold mb-2 text-white">Hours</h3>
               <div className="text-[var(--muted)] space-y-1">
-                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p>Saturday: 9:00 AM - 2:00 PM</p>
+                <p>Monday: 8:30 AM - 5:00 PM</p>
+                <p>Tuesday: 8:30 AM - 5:30 PM</p>
+                <p>Wednesday: 8:30 AM - 5:00 PM</p>
+                <p>Thursday: 8:30 AM - 5:00 PM</p>
+                <p>Friday: 8:30 AM - 5:00 PM</p>
+                <p>Saturday: Closed</p>
                 <p>Sunday: Closed</p>
               </div>
             </div>

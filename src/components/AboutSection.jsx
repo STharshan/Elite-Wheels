@@ -15,9 +15,9 @@ export default function AboutSection() {
         {/* TITLE */}
         <div className="max-w-3xl mb-16" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-extrabold text-white uppercase">
-            About{" "}
+            Craftsmanship{" "}
             <span style={{ color: "var(--gold)" }}>
-              Elite Wheels Glasgow
+              That Brings Your Wheels Back to Life
             </span>
           </h2>
 
@@ -27,10 +27,7 @@ export default function AboutSection() {
           />
 
           <p className="mt-6 text-lg text-[var(--muted)] leading-relaxed">
-            We are a trusted wheel refurbishment and repair specialist
-            delivering professional workmanship, honest advice, and reliable
-            results. From refinishing to smart repairs, we keep your wheels
-            looking sharp, premium, and road ready.
+           At Elite Wheels Glasgow, we specialise in premium alloy wheel refurbishment with a focus on quality, precision, and customer satisfaction. Whether it's powder coating, diamond cutting, kerb damage repairs, or complete wheel restoration, our experienced team delivers factory-quality finishes that enhance the appearance and value of your vehicle.
           </p>
         </div>
 
@@ -46,7 +43,7 @@ export default function AboutSection() {
             <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl">
               <img
                 src="/pexels-photo-17045319-2880w.webp"
-                alt="MOT inspection"
+                alt="image"
                 className="w-full h-[420px] object-cover"
                 loading="lazy"
               />
@@ -77,16 +74,16 @@ export default function AboutSection() {
           <div className="space-y-6 order-1 lg:order-2" data-aos="fade-left">
             {[
               {
-                title: "Premium Wheel Finishes",
-                desc: "Gloss black, gold accents, and custom refinishing tailored to your style.",
+                title: "Premium Finishes",
+                desc: "Using high-quality materials and proven techniques to achieve long-lasting, showroom-quality results.",
               },
               {
-                title: "Precision Repairs",
-                desc: "Curb rash, scuffs, and cosmetic damage restored with care and detail.",
+                title: "Expert Craftsmanship",
+                desc: "Our skilled technicians pay attention to every detail, ensuring every wheel is restored to the highest standard.",
               },
               {
-                title: "Customer-First Service",
-                desc: "Clear communication, honest advice, and fast turnaround.",
+                title: "Fast Turnaround",
+                desc: "We work efficiently to get your wheels refurbished and back on the road as quickly as possible.",
               },
             ].map((item, index) => (
               <div

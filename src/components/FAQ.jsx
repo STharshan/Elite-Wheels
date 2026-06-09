@@ -3,20 +3,36 @@ import { Plus } from "lucide-react";
 
 const faqs = [
   {
+    q: "What is alloy wheel refurbishment?",
+    a: "Alloy wheel refurbishment is the process of repairing and restoring damaged or worn wheels to a like-new condition. This can include kerb damage repairs, powder coating, diamond cutting, and custom colour changes.",
+  },
+  {
     q: "How long does wheel refurbishment take?",
-    a: "Most wheel refurbishment jobs are completed within a few hours to a day, depending on the wheel condition and finish.",
+    a: "Turnaround times depend on the service required, but most refurbishments are completed quickly to get you back on the road as soon as possible. Contact us for current availability.",
   },
   {
-    q: "Can kerb rash be repaired?",
-    a: "Yes. Kerb rash and light scuffs can usually be repaired and refinished for a clean factory-style result.",
+    q: "What is the difference between powder coating and diamond cutting?",
+    a: "Powder coating provides a durable coloured finish that protects your wheels from everyday wear, while diamond cutting creates a precision-machined surface for a premium factory-style appearance.",
   },
   {
-    q: "Do you offer custom finishes?",
-    a: "Yes. We can help with gloss black, gold accent, and other premium finish options.",
+    q: "Can you repair kerb damage and scratches?",
+    a: "Yes. We repair kerb damage, scratches, and minor imperfections to restore the appearance and integrity of your alloy wheels.",
   },
   {
-    q: "Can you match my current wheel colour?",
-    a: "Yes. We can work to match existing finishes or create a fresh look that suits your vehicle.",
+    q: "Do you offer custom wheel colours?",
+    a: "Absolutely. We offer a wide range of custom colours and finishes, allowing you to personalise your wheels to match your vehicle's style.",
+  },
+  {
+    q: "Can cracked or bent wheels be repaired?",
+    a: "In many cases, yes. Our wheel straightening and crack repair services can restore damaged wheels, subject to a full inspection to ensure they are safe for use.",
+  },
+  {
+    q: "How much does wheel refurbishment cost?",
+    a: "Pricing varies depending on the wheel size and service required. We provide competitive pricing and free quotes to help you choose the best option for your vehicle.",
+  },
+  {
+    q: "How do I get a quote?",
+    a: "Simply contact our team by phone or through our online enquiry form. We'll discuss your requirements and provide a free, no-obligation quote.",
   },
 ];
 
@@ -38,6 +54,9 @@ const FAQSection = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white leading-tight">
             Frequently Asked Questions
           </h2>
+          <p className="mt-4 text-[var(--muted)] max-w-xl leading-relaxed">
+            Have a question about our wheel refurbishment services? Here are some of the most common questions we receive. If you need more information, our team is always happy to help.
+          </p>
         </div>
 
         {/* RIGHT */}

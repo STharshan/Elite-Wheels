@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -30,10 +31,10 @@ const Footer = () => {
           <div className="flex flex-col flex-1 md:items-center">
             <h3 className="text-lg font-semibold mb-6 text-[var(--gold)]">Pages</h3>
             <ul className="space-y-4 text-[var(--muted)] md:text-center">
-              <li><a href="/" className="hover:text-white transition">Home</a></li>
-              <li><a href="/about" className="hover:text-white transition">About Us</a></li>
-              <li><a href="/service" className="hover:text-white transition">Service</a></li>
-              <li><a href="/contact" className="hover:text-white transition">Contact</a></li>
+              <li><Link to="/" className="hover:text-white transition">Home</Link></li>
+              <li><Link to="/#about" className="hover:text-white transition">About Us</Link></li>
+              <li><Link to="/#service" className="hover:text-white transition">Service</Link></li>
+              <li><Link to="/#contact" className="hover:text-white transition">Contact</Link></li>
             </ul>
           </div>
 
@@ -41,10 +42,13 @@ const Footer = () => {
           <div className="flex flex-col flex-1 md:items-center">
             <h3 className="text-lg font-semibold mb-6 text-[var(--gold)]">Opening Hours</h3>
             <ul className="space-y-2 text-[var(--muted)] md:text-center text-sm">
-              <li>Mon - Thu: 9 AM – 10 PM</li>
-              <li>Friday: 9 AM – 10 PM</li>
-              <li>Saturday: 9 AM – 6 PM</li>
-              <li>Sunday: 9 AM – 6 PM</li>
+              <li>Monday: 8:30 AM - 5:00 PM</li>
+              <li>Tuesday: 8:30 AM - 5:30 PM</li>
+              <li>Wednesday: 8:30 AM - 5:00 PM</li>
+              <li>Thursday: 8:30 AM - 5:00 PM</li>
+              <li>Friday: 8:30 AM - 5:00 PM</li>
+              <li>Saturday: Closed</li>
+              <li>Sunday: Closed</li>
             </ul>
           </div>
 
@@ -69,7 +73,7 @@ const Footer = () => {
               {/* Clickable address (Google Maps link) */}
               <li>
                 <a
-                  href="https://maps.google.com/?q=15+Carmyle+Avenue,+Glasgow,+United+Kingdom"
+                  href="https://maps.app.goo.gl/QhPQjNmN28A3c5gh8"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
@@ -93,7 +97,7 @@ const Footer = () => {
           © {new Date().getFullYear()} Elite Wheels Glasgow. All rights reserved.
         </div>
 
-        <div>Powered by <a href="https://www.ansely.co.uk/" className="hover:underline hover:text-[var(--gold)]">Ansely</a></div>
+        <div>Powered by <a target="_blank" rel="noopener noreferrer" href="https://www.ansely.co.uk/" className="hover:underline hover:text-[var(--gold)]">Ansely</a></div>
 
         <div className="flex gap-6">
           <a href="/privacy-policy" className="underline hover:text-white transition">Privacy Policy</a>
