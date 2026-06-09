@@ -181,6 +181,7 @@ const ServiceSection = () => {
     <section
       id="services"
       className="w-full min-h-screen scroll-m-15 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 transition-colors duration-500"
+      data-aos="fade-up"
     >
       <div className="mb-8 md:mb-12 text-center">
         <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold uppercase tracking-widest transition-colors">
@@ -197,6 +198,7 @@ const ServiceSection = () => {
             <button
               onClick={handlePrevious}
               className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 z-30 bg-black rounded-full p-2 shadow-lg border border-white/10"
+              aria-label="Previous service"
             >
               <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
@@ -206,13 +208,14 @@ const ServiceSection = () => {
             <button
               onClick={handleNext}
               className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 z-30 bg-black rounded-full p-2 shadow-lg border border-white/10"
+              aria-label="Next service"
             >
               <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
               </svg>
             </button>
 
-            <div className="relative overflow-hidden rounded-2xl bg-white/5 border border-white/10 shadow-xl min-h-[760px]">
+            <div className="relative overflow-hidden rounded-2xl bg-white/5 border border-white/10 shadow-xl min-h-[760px]" data-aos="zoom-in">
               <div className="absolute top-0 left-0 w-full h-1 bg-white/10 overflow-hidden z-20">
                 <div
                   className="absolute left-0 top-0 h-full bg-[var(--gold)] transition-all duration-100 ease-linear"
@@ -244,7 +247,7 @@ const ServiceSection = () => {
                   </div>
                 </div>
 
-                <div className="w-full h-72 overflow-hidden rounded-xl shadow-inner border border-white/10 shrink-0 bg-white">
+                <div className="w-full h-72 overflow-hidden rounded-xl shadow-inner border border-white/10 shrink-0 bg-white" data-aos="fade-up" data-aos-delay="150">
                   {renderMedia(cards[activeCard])}
                 </div>
 
@@ -273,6 +276,8 @@ const ServiceSection = () => {
                   className={`relative overflow-hidden rounded-3xl cursor-pointer transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] bg-white/5 border border-white/10 ${
                     isFirst ? "flex-[2.5]" : "flex-1"
                   } hover:shadow-2xl group`}
+                  data-aos={isFirst ? "fade-up" : "fade-up"}
+                  data-aos-delay={displayIndex * 120}
                 >
                   {isFirst && (
                     <div className="absolute bottom-0 left-0 w-1.5 h-full bg-black/10 overflow-hidden z-20">
@@ -321,7 +326,7 @@ const ServiceSection = () => {
                         </div>
                       </div>
 
-                      <div className="w-full h-72 lg:h-[22rem] overflow-hidden rounded-2xl shadow-inner border border-white/10 my-4 bg-white">
+                      <div className="w-full h-72 lg:h-[22rem] overflow-hidden rounded-2xl shadow-inner border border-white/10 my-4 bg-white" data-aos="fade-up" data-aos-delay="150">
                         {renderMedia(card, "group-hover:scale-105 transition-transform duration-1000")}
                       </div>
 

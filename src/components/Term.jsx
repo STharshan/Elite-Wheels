@@ -2,7 +2,7 @@ import React from "react";
 
 const TermsConditions = () => {
   return (
-    <section className="bg-black text-white mx-auto px-4 py-8">
+    <section className="bg-black text-white mx-auto px-4 py-8" data-aos="fade-up">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-semibold text-center mb-6 mt-20 text-white">
           Website Terms of Use

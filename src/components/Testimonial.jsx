@@ -85,11 +85,11 @@ export default function Testimonial() {
   });
 
   return (
-    <section id="testimonial" className="w-full py-10 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors duration-500">
+    <section id="testimonial" className="w-full py-10 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors duration-500" data-aos="fade-up">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         {/* Heading Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
 
           {/* Google Logo + Review Badge — stacked, centered */}
           <div className="flex flex-col items-center gap-3 mb-8">
@@ -124,10 +124,12 @@ export default function Testimonial() {
             {slides.map((group, idx) => (
               <div key={idx} className="shrink-0 w-full flex flex-col md:flex-row gap-6 lg:gap-8">
                 {group.map((item, i) => (
-                  <div
-                    key={i}
-                    className="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-xl flex-1 flex flex-col justify-between transition-all duration-300"
-                  >
+                <div
+                  key={i}
+                  className="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-xl flex-1 flex flex-col justify-between transition-all duration-300"
+                  data-aos="zoom-in"
+                  data-aos-delay={i * 120}
+                >
                     <div>
                       {/* Stars */}
                       <div className="flex gap-1 mb-6">

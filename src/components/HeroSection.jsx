@@ -14,6 +14,7 @@ export default function HeroSection() {
     <section
       id="home"
       className="relative min-h-screen py-30 bg-black text-white flex items-center"
+      data-aos="fade-up"
     >
       {/* Background */}
       <div className="absolute inset-0">
@@ -80,7 +81,7 @@ export default function HeroSection() {
             data-aos-delay="500"
             className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6"
           >
-            <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6">
+            <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6" data-aos="zoom-in" data-aos-delay="550">
               <FaTools className="text-[var(--gold)] text-3xl mb-2 mx-auto" />
               <p className="uppercase tracking-wide font-semibold">
                 Premium Finishes
@@ -90,7 +91,7 @@ export default function HeroSection() {
               </p>
             </div>
 
-            <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6">
+            <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6" data-aos="zoom-in" data-aos-delay="650">
               <FaClock className="text-[var(--gold)] text-3xl mb-2 mx-auto" />
               <p className="uppercase tracking-wide font-semibold">
                 Fast Turnaround
@@ -100,7 +101,7 @@ export default function HeroSection() {
               </p>
             </div>
 
-            <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6">
+            <div className="bg-[var(--surface)] border border-white/10 rounded-lg p-6" data-aos="zoom-in" data-aos-delay="750">
               <FaMapMarkerAlt className="text-[var(--gold)] text-3xl mb-2 mx-auto" />
               <p className="uppercase tracking-wide font-semibold">
                 Glasgow Specialists

@@ -60,11 +60,11 @@ Message: ${formData.message}
   };
 
   return (
-    <section id="contact" className="w-full py-14 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors">
+    <section id="contact" className="w-full py-14 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors" data-aos="fade-up">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-14" data-aos="fade-up">
           <h2 className="text-4xl md:text-5xl font-semibold text-white mb-4">
             Get In Touch
           </h2>
@@ -76,9 +76,9 @@ Message: ${formData.message}
         <div className="grid lg:grid-cols-2 gap-10">
 
           {/* LEFT INFO */}
-          <div className="bg-white/5 p-8 rounded-2xl shadow-lg space-y-8 border border-white/10">
+          <div className="bg-white/5 p-8 rounded-2xl shadow-lg space-y-8 border border-white/10" data-aos="fade-right">
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
               <h3 className="text-xl font-semibold mb-2 text-white">Address</h3>
               <a
                 href="https://maps.app.goo.gl/QhPQjNmN28A3c5gh8"
@@ -90,7 +90,7 @@ Message: ${formData.message}
               </a>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
               <h3 className="text-xl font-semibold mb-2 text-white">Phone</h3>
               <a
                 href="tel:07909445101"
@@ -100,7 +100,7 @@ Message: ${formData.message}
               </a>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="300">
               <h3 className="text-xl font-semibold mb-2 text-white">Hours</h3>
               <div className="text-[var(--muted)] space-y-1">
                 <p>Monday: 8:30 AM - 5:00 PM</p>
@@ -113,14 +113,14 @@ Message: ${formData.message}
               </div>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="400">
               <h3 className="text-xl font-semibold mb-3 text-white">
                 Payment Methods
               </h3>
               <div className="grid grid-cols-3 gap-3">
 
                 {/* Google Pay */}
-                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16" data-aos="zoom-in" data-aos-delay="50">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 36" width="82" height="32">
                     <text x="0" y="25"  fontSize="17" fontWeight="500" fill="#5F6368">G</text>
                     <text x="12" y="25"  fontSize="17" fontWeight="500" fill="#EA4335">o</text>
@@ -133,7 +133,7 @@ Message: ${formData.message}
                 </div>
 
                 {/* Apple Pay */}
-                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16" data-aos="zoom-in" data-aos-delay="100">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 32" width="68" height="30">
                     <path d="M14 6.8c1-1.2 1.6-2.9 1.4-4.6-1.5.1-3.2 1-4.2 2.2-.9 1.1-1.7 2.8-1.5 4.4 1.6.2 3.2-.7 4.3-2z" fill="#000"/>
                     <path d="M15.5 9.2c-2.3-.1-4.3 1.3-5.4 1.3-1.1 0-2.8-1.2-4.7-1.2C3 9.3.8 10.7-.4 12.8c-2.5 4.3-.6 10.7 1.8 14.2 1.2 1.7 2.6 3.6 4.4 3.5 1.7-.1 2.4-1.1 4.5-1.1 2.1 0 2.7 1.1 4.5 1.1 1.9-.1 3.1-1.7 4.3-3.4.7-1.1 1.3-2.3 1.7-3.6-4.3-1.6-5-7.9-.5-10.2-1.1-1.4-2.8-2.2-4.3-2.1z" fill="#000"/>
@@ -142,14 +142,14 @@ Message: ${formData.message}
                 </div>
 
                 {/* Visa */}
-                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16" data-aos="zoom-in" data-aos-delay="150">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 30" width="64" height="26">
                     <text x="2" y="22"  fontSize="24" fontWeight="800" fontStyle="italic" fill="#1A1F71" letterSpacing="2">VISA</text>
                   </svg>
                 </div>
 
                 {/* Mastercard */}
-                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16" data-aos="zoom-in" data-aos-delay="200">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 36" width="56" height="34">
                     <circle cx="20" cy="18" r="14" fill="#EB001B"/>
                     <circle cx="38" cy="18" r="14" fill="#F79E1B"/>
@@ -158,7 +158,7 @@ Message: ${formData.message}
                 </div>
 
                 {/* Contactless */}
-                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16">
+                <div className="px-3 py-3 bg-black rounded-xl border border-white/10 shadow-sm flex items-center justify-center h-16" data-aos="zoom-in" data-aos-delay="250">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="38" height="38" fill="none" strokeLinecap="round">
                     <circle cx="20" cy="20" r="3" fill="#5F6368"/>
                     <path d="M20 20 a8 8 0 0 0 0-0" stroke="none"/>
@@ -173,7 +173,7 @@ Message: ${formData.message}
           </div>
 
           {/* RIGHT FORM */}
-          <div className="bg-white/5 p-8 rounded-2xl shadow-lg border border-white/10">
+          <div className="bg-white/5 p-8 rounded-2xl shadow-lg border border-white/10" data-aos="fade-down">
             <form className="space-y-6" onSubmit={handleSubmit}>
 
               {/* Name & Email */}

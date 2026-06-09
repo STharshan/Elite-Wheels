@@ -43,11 +43,11 @@ const FAQSection = () => {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <section className="bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] py-8 sm:py-10 md:py-12">
+    <section className="bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] py-8 sm:py-10 md:py-12" data-aos="fade-up">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16">
 
         {/* LEFT */}
-        <div className="lg:sticky lg:top-8 lg:self-start">
+        <div className="lg:sticky lg:top-8 lg:self-start" data-aos="fade-right">
           <span className="block text-[var(--gold)] font-semibold mb-3 sm:mb-4 text-sm sm:text-base">
             FAQ
           </span>
@@ -68,6 +68,8 @@ const FAQSection = () => {
               <div
                 key={index}
                 className="bg-white/5 rounded-2xl overflow-hidden transition border border-white/10"
+                data-aos="fade-up"
+                data-aos-delay={index * 80}
               >
                 {/* HEADER */}
                 <button

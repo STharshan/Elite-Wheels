@@ -7,10 +7,10 @@ const Footer = () => {
     <footer className="bg-black text-white border-t border-white/10">
       {/* TOP */}
       <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="flex flex-col md:flex-row justify-between gap-10">
+        <div className="flex flex-col md:flex-row justify-between gap-10" >
 
           {/* BRAND */}
-          <div className="flex flex-col flex-1">
+          <div className="flex flex-col flex-1" >
             <span className="text-2xl font-bold mb-4">
               Elite Wheels Glasgow
             </span>
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
 
           {/* COMPANY */}
-          <div className="flex flex-col flex-1 md:items-end items-start">
+          <div className="flex flex-col flex-1 md:items-end items-start" >
             <h3 className="text-lg font-semibold mb-6 text-[var(--gold)]">Company</h3>
             <ul className="space-y-4 text-[var(--muted)] md:text-right">
               {/* Clickable phone */}

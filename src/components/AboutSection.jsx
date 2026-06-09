@@ -6,6 +6,7 @@ export default function AboutSection() {
     <section
       className="relative py-24 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] overflow-hidden"
       id="about"
+      data-aos="fade-up"
     >
       {/* BACKGROUND GLOWS */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[var(--gold)]/10 blur-3xl rounded-full" />
@@ -89,6 +90,8 @@ export default function AboutSection() {
               <div
                 key={index}
                 className="p-6 rounded-md bg-white/5 border border-white/10 hover:border-[var(--gold)] transition"
+                data-aos="zoom-in"
+                data-aos-delay={index * 120}
               >
                 <h3 className="text-white font-semibold mb-2">
                   {item.title}

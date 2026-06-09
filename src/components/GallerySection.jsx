@@ -91,11 +91,11 @@ const WorkGallery = () => {
   };
 
   return (
-    <section className="py-10 sm:py-14 lg:py-16 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors">
+    <section className="py-10 sm:py-14 lg:py-16 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors" data-aos="fade-up">
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Title */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-10" data-aos="fade-up">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
             Our Work Gallery
           </h2>
@@ -111,6 +111,8 @@ const WorkGallery = () => {
               key={index}
               onClick={() => openModal(card, index)}
               className="group bg-white/5 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-white/10 cursor-pointer transform hover:scale-[1.03]"
+              data-aos="zoom-in"
+              data-aos-delay={index * 80}
             >
               <div className="flex flex-col sm:flex-row relative">
                 {/* BEFORE IMAGE */}
@@ -148,7 +150,7 @@ const WorkGallery = () => {
         {/* MODAL */}
         {selectedCard && (
           <div className="fixed inset-0 bg-black/80 backdrop-blur-md z-[999] flex items-center justify-center p-4">
-            <div className="relative bg-black rounded-2xl w-full max-w-6xl max-h-[92vh] overflow-auto shadow-2xl border border-white/10">
+            <div className="relative bg-black rounded-2xl w-full max-w-6xl max-h-[92vh] overflow-auto shadow-2xl border border-white/10" data-aos="zoom-in">
 
               {/* Header */}
               <div className="flex justify-between items-center p-4 border-b border-white/10">
