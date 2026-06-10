@@ -1,61 +1,56 @@
-"use client";
 import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 const cardData = [
   {
-    beforeImageUrl: "/brae-3.jpeg",
-    afterImageUrl: "/brae-1.jpeg",
-    altText: "1967 Ford Mustang Fastback",
-    category: "Complete bare metal respray",
+    beforeImageUrl: "/g1.jpg",
+    afterImageUrl: "/g2.jpg",
+    altText: "Classic car restoration set 1",
   },
   {
-    beforeImageUrl: "/respray-1.jpeg",
-    afterImageUrl: "/respray-2.jpeg",
-    altText: "1969 Chevrolet Camaro SS",
-    category: "Complete outer body respray",
+    beforeImageUrl: "/g3.jpg",
+    afterImageUrl: "/g4.jpg",
+    altText: "Classic car restoration set 2",
   },
   {
-    beforeImageUrl: "/nut-and-bolt -1.jpeg",
-    afterImageUrl: "/nut-and-bolt -2.jpeg",
-    altText: "1970 Plymouth 'Cuda",
-    category: "Full nut and bolt restoration/fiberglass bodykit professionally fitted and blended in/bare metal respray",
+    beforeImageUrl: "/g5.jpg",
+    afterImageUrl: "/g6.jpg",
+    altText: "Classic car restoration set 3",
   },
   {
-    beforeImageUrl: "/fiberglass4-2.jpeg",
-    afterImageUrl: "/fiberglass4-1.jpeg",
-    altText: "1963 Corvette Split Window",
-    category: "Full fiberglass bodykit professionally fitted and blended in/Full nut and bolt restoration/bare metal respray",
+    beforeImageUrl: "/g7.jpg",
+    afterImageUrl: "/g8.jpg",
+    altText: "Classic car restoration set 4",
   },
   {
-    beforeImageUrl: "/strip5-3.jpeg",
-    afterImageUrl: "/strip5-1.jpeg",
-    altText: "1963 Corvette Split Window",
-    category: "Complete strip and colour change inside and out",
+    beforeImageUrl: "/g9.jpg",
+    afterImageUrl: "/g10.jpg",
+    altText: "Classic car restoration set 5",
   },
   {
-    beforeImageUrl: "/out respray6-1.jpeg",
-    afterImageUrl: "/out respray6-3.jpeg",
-    altText: "1963 Corvette Split Window",
-    category: "Complete inside and out respray",
+    beforeImageUrl: "/g11.jpg",
+    afterImageUrl: "/g12.jpg",
+    altText: "Classic car restoration set 6",
   },
   {
-    beforeImageUrl: "/outside respray7-1.jpeg",
-    afterImageUrl: "/outside respray7-2.jpeg",
-    altText: "1963 Corvette Split Window",
-    category: "Complete outside respray",
+    beforeImageUrl: "/g13.jpg",
+    afterImageUrl: "/g14.jpg",
+    altText: "Classic car restoration set 7",
   },
   {
-    beforeImageUrl: "/Full outside respray8-1.jpeg",
-    afterImageUrl: "/Full outside respray8-3.jpeg",
-    altText: "1963 Corvette Split Window",
-    category: "Full outside respray",
+    beforeImageUrl: "/g15.jpg",
+    afterImageUrl: "/g16.jpg",
+    altText: "Classic car restoration set 8",
   },
   {
-    beforeImageUrl: "/out body respray9-1.jpeg",
-    afterImageUrl: "/out body respray9-2.jpeg",
-    altText: "1963 Corvette Split Window",
-    category: "Complete inside and out body respray",
+    beforeImageUrl: "/g17.jpg",
+    afterImageUrl: "/g18.jpg",
+    altText: "Classic car restoration set 9",
+  },
+  {
+    beforeImageUrl: "/g19.jpg",
+    afterImageUrl: "/g20.jpg",
+    altText: "Classic car restoration set 10",
   },
 ];
 
@@ -96,7 +91,7 @@ const WorkGallery = () => {
 
         {/* Title */}
         <div className="text-center mb-10" data-aos="fade-up">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+          <h2 className="section-heading">
             Our Work <span className="text-[#E53E3E]">Gallery</span>
           </h2>
           <p className="mt-2 text-[var(--muted)] text-sm sm:text-base max-w-xl mx-auto">
@@ -198,12 +193,6 @@ const WorkGallery = () => {
                 </div>
               </div>
 
-              {/* CATEGORY TITLE */}
-              <div className="text-center p-4 pt-0">
-                <span className="inline-block bg-[var(--gold)] text-black px-4 py-2 rounded-lg text-sm sm:text-base font-medium break-words max-w-[90%]">
-                  {selectedCard.category}
-                </span>
-              </div>
 
               {/* Navigation Arrows */}
               <button

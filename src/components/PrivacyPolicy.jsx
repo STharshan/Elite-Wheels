@@ -3,14 +3,14 @@ import React from "react";
 const PrivacyPolicy = () => {
   return (
     <div className="mx-auto px-4 py-12 sm:px-6 lg:px-16 bg-black text-white" data-aos="fade-up">
-      <h1 className="text-4xl font-semibold text-center mb-8 mt-15 text-white">
+      <h1 className="section-heading text-center mb-8 mt-15">
         Privacy Policy
       </h1>
       <p className="text-center text-[var(--muted)]">Last updated: 09/09/25</p>
 
       <div className="mt-8 space-y-6">
         <section>
-          <h2 className="text-2xl font-medium text-[var(--gold)]">
+          <h2 className="section-heading">
             1. Information We Collect
           </h2>
           <p className="text-[var(--muted)]">
@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-medium text-[var(--gold)]">
+          <h2 className="section-heading">
             2. Lawful Basis for Processing
           </h2>
           <p className="text-[var(--muted)]">
@@ -47,7 +47,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-medium text-[var(--gold)]">
+          <h2 className="section-heading">
             3. How We Use Your Information
           </h2>
           <p className="text-[var(--muted)]">We use your personal data to:</p>
@@ -62,7 +62,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-medium text-[var(--gold)]">
+          <h2 className="section-heading">
             4. Sharing Your Information
           </h2>
           <p className="text-[var(--muted)]">
@@ -76,7 +76,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-medium text-[var(--gold)]">
+          <h2 className="section-heading">
             5. Cookies & Website Tracking
           </h2>
           <p className="text-[var(--muted)]">
@@ -87,7 +87,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-medium text-[var(--gold)]">
+          <h2 className="section-heading">
             6. Data Security
           </h2>
           <p className="text-[var(--muted)]">
@@ -98,7 +98,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-medium text-[var(--gold)]">
+          <h2 className="section-heading">
             7. How Long We Keep Your Information
           </h2>
           <p className="text-[var(--muted)]">
@@ -109,7 +109,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-medium text-[var(--gold)]">
+          <h2 className="section-heading">
             8. Your Rights
           </h2>
           <p className="text-[var(--muted)]">
@@ -129,7 +129,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-medium text-[var(--gold)]">
+          <h2 className="section-heading">
             9. Contact Us
           </h2>
           <p className="text-[var(--muted)]">

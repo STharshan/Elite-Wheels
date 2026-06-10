@@ -51,7 +51,7 @@ const FAQSection = () => {
           <span className="block text-[var(--gold)] font-semibold mb-3 sm:mb-4 text-sm sm:text-base">
             FAQ
           </span>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white leading-tight">
+          <h2 className="section-heading leading-tight">
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-[var(--muted)] max-w-xl leading-relaxed">

@@ -4,49 +4,49 @@ import { useSwipeable } from "react-swipeable";
 
 const testimonials = [
   {
-    name: "BartekS",
+    name: "Mr Johnson",
     review:
-      "Fast, efficient, friendly. Nicky does the job with a smile. Loads of nasty dents on my car Nicky sorted them no problem at all. Could not recommend him more! If you need any dents removing he's the man to contact!",
+      "Charlie is a wizard at what he does, advice is so spot on.You walk into the showroom and its like being a kid in candy shop, vast selection of alloys to choose from. I have a Transporter T6.1 was a bit crash bang on my old tyres, Charlie advised to change to a larger wall thickness…So went for a 235/55/18 General Grabber Cross, WOW what a difference. So pleased with the result…. Cheers Charlie..Nigel",
   },
   {
-    name: "gareth noon",
+    name: "Maria Mitchell",
     review:
-      "I had Elite Wheels Glasgow out to do a small repair on my rear arch. The finish was faultless and the workmanship was excellent. I would definitely recommend them and use them again.",
+      "Just like to say all garages I have been to this wins by far . They are so helpful & polite & do not rip you off they are fair prices & they bend over backwards to help keep cost down with still getting job done amazing company and as woman it nice to go where you don’t feel intimated lovely all rounder this place & lovely meeting owner beautiful lady & her son Chris was most helpful ! Thanku for doing my car & my son 😎",
   },
   {
-    name: "James InEngland1",
+    name: "Ann-Marie Sargent",
     review:
-      "Absolutely brilliant genuine service from Elite Wheels Glasgow! I had recently bought a car and the wheels needed serious attention. The results were better than I expected.",
+      "Excellent customer service, went out of their way to make the whole experience truly amazing! Refubed wheels look brilliant and so do the alloys they found for us. Highly recommend them total professionals know there stuff and they are totally human as well. Especially Charlie and Jay can’t praise them enough.",
   },
   {
-    name: "Ray Smitham",
+    name: "David Broadhead",
     review:
-      "I highly recommend Elite Wheels Glasgow for the excellent job they did on my vehicle. Prompt, reliable service and great communication throughout.",
+      "Last year, Elite carried out 4-wheel alignment on both our family cars. Took the BMW back for a recheck after 9 months, and they were happy to put it on the ramp, and advised all was in good shape. Such peace of mind only comes with great customer service. Well done Elite.",
   },
   {
-    name: "Oscar Monk",
+    name: "C and J",
     review:
-      "Really good experience with the team and their ability to restore a damaged wheel on my Golf GTI. Great communication, a fair price, and quality workmanship.",
+      "Fitted some lowering springs to my Kuga and needed a company that could sort out my alignment, someone who knows what they are doing! Took a chance with elitewheels as I hadn't booked in advance, even though they were fully booked up they squeezed me in straight away as I had a long drive planned the following day. First class service from people that know their stuff and don't mess around. Super happy with everything they have done for me. Thank you!",
   },
   {
-    name: "Katie Beeston",
+    name: "Suzanne",
     review:
-      "Fantastic service from Elite Wheels Glasgow. They completed the work quickly at a great price and were super helpful and accommodating throughout.",
+      "Elite what a treat! I had a problem with swollen wheel nuts and another company couldn't get them off. I was recommended here and Elite were amazing. They replaced all my wheel nuts. They were professional, supportive and very quick service. I will be using them again to get my tyres in the future.",
   },
   {
-    name: "TigerTigerPantherFox",
+    name: "Peter",
     review:
-      "Elite Wheels Glasgow came out to sort two issues on my Audi A3 and the results are phenomenal. I would highly recommend them to friends and family.",
+      "Had new wheels and tyres fitted to my motorhome this week, competitively priced and fantastic service from all the guys.",
   },
   {
-    name: "Raheem Zameer",
+    name: "Asam Hussain",
     review:
-      "The team was very friendly and helpful and got my Mercedes wheel looking great again. They were quick, efficient, and easy to deal with.",
+      "Quality service and excellent refurb job on my BMW MV3 Alloys at Walsall branch. Would highly recommend and use them again!",
   },
   {
-    name: "Real Perspectives",
+    name: "MR KEVIN WHITE",
     review:
-      "I had an issue with my wife’s car and Elite Wheels Glasgow saved the day. Superb job, excellent communication, and fast, friendly service.",
+      "Amazing service, very helpful staff. Nothing was too much trouble for the friendly staff. Highly recommended.",
   },
 ];
 
@@ -107,7 +107,7 @@ export default function Testimonial() {
             </div>
           </div>
 
-          <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold uppercase tracking-widest transition-colors mb-4">
+          <h2 className="section-heading transition-colors mb-4">
             Customer <span className="text-[#E53E3E]">Stories</span>
           </h2>
           <p className="text-[var(--muted)] font-medium text-sm sm:text-base max-w-2xl mx-auto">

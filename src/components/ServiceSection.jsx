@@ -184,7 +184,7 @@ const ServiceSection = () => {
       data-aos="fade-up"
     >
       <div className="mb-8 md:mb-12 text-center">
-        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold uppercase tracking-widest transition-colors">
+        <h2 className="section-heading transition-colors">
           Our <span className="text-[#E53E3E]">Services</span>
         </h2>
         <p className="text-[var(--muted)] font-medium text-xs sm:text-sm mt-2">

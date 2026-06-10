@@ -65,7 +65,7 @@ Message: ${formData.message}
 
         {/* Heading */}
         <div className="text-center mb-14" data-aos="fade-up">
-          <h2 className="text-4xl md:text-5xl font-semibold text-white mb-4">
+          <h2 className="section-heading mb-4">
             Get In <span className="text-[#E53E3E]">Touch</span>  
           </h2>
           <p className="text-lg text-[var(--muted)] max-w-2xl mx-auto">

@@ -15,7 +15,7 @@ export default function AboutSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-16">
         {/* TITLE */}
         <div className="max-w-3xl mb-16" data-aos="fade-up">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white uppercase">
+          <h2 className="section-heading">
             Craftsmanship{" "}
             <span style={{ color: "#E53E3E" }}>
               That Brings Your Wheels Back to Life

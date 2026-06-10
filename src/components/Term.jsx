@@ -4,14 +4,14 @@ const TermsConditions = () => {
   return (
     <section className="bg-black text-white mx-auto px-4 py-8" data-aos="fade-up">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl font-semibold text-center mb-6 mt-20 text-white">
+        <h1 className="section-heading text-center mb-6 mt-20">
           Website Terms of Use
         </h1>
         <p className="text-center text-[var(--muted)]">Last updated: 09/09/25</p>
 
         <div className="mt-8 space-y-6">
           <section>
-            <h2 className="text-2xl font-medium text-[var(--gold)]">
+            <h2 className="section-heading">
               1. Use of Our Website
             </h2>
             <p className="text-[var(--muted)]">
@@ -22,7 +22,7 @@ const TermsConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-medium text-[var(--gold)]">
+            <h2 className="section-heading">
               2. Accuracy of Information
             </h2>
             <p className="text-[var(--muted)]">
@@ -35,7 +35,7 @@ const TermsConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-medium text-[var(--gold)]">
+            <h2 className="section-heading">
               3. Intellectual Property
             </h2>
             <p className="text-[var(--muted)]">
@@ -48,7 +48,7 @@ const TermsConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-medium text-[var(--gold)]">
+            <h2 className="section-heading">
               4. Links to Other Websites
             </h2>
             <p className="text-[var(--muted)]">
@@ -59,7 +59,7 @@ const TermsConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-medium text-[var(--gold)]">
+            <h2 className="section-heading">
               5. Liability
             </h2>
             <p className="text-[var(--muted)]">
@@ -71,7 +71,7 @@ const TermsConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-medium text-[var(--gold)]">
+            <h2 className="section-heading">
               6. Privacy & Data Protection
             </h2>
             <p className="text-[var(--muted)]">
@@ -81,7 +81,7 @@ const TermsConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-medium text-[var(--gold)]">
+            <h2 className="section-heading">
               7. Changes to These Terms
             </h2>
             <p className="text-[var(--muted)]">
@@ -91,7 +91,7 @@ const TermsConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-medium text-[var(--gold)]">
+            <h2 className="section-heading">
               8. Governing Law
             </h2>
             <p className="text-[var(--muted)]">
@@ -102,7 +102,7 @@ const TermsConditions = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-medium text-[var(--gold)]">
+            <h2 className="section-heading">
               9. Contact Us
             </h2>
             <p className="text-[var(--muted)]">

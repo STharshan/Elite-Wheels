@@ -37,3 +37,7 @@ a {
   background: rgba(229, 62, 62, 0.28);
   color: #ffffff;
 }
+
+.section-heading {
+  @apply text-3xl sm:text-4xl md:text-5xl font-bold uppercase tracking-widest text-white;
+}

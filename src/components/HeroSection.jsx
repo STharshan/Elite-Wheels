@@ -32,10 +32,7 @@ export default function HeroSection() {
         <div className="max-w-5xl mx-auto text-center space-y-6">
 
           {/* Heading */}
-          <h1
-            data-aos="fade-up"
-            className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-wide uppercase"
-          >
+          <h1 data-aos="fade-up" className="section-heading">
             Premium Alloy Wheel Refurbishment in{" "}
             <span className="text-[#E53E3E]">Glasgow</span>
           </h1>
