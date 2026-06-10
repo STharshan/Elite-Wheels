@@ -4,7 +4,7 @@ export default function AboutSection() {
 
   return (
     <section
-      className="relative py-24 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] overflow-hidden"
+      className="relative py-24 bg-[linear-gradient(180deg,var(--bg)_0%,var(--surface)_100%)] overflow-hidden"
       id="about"
       data-aos="fade-up"
     >
@@ -17,7 +17,7 @@ export default function AboutSection() {
         <div className="max-w-3xl mb-16" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-extrabold text-white uppercase">
             Craftsmanship{" "}
-            <span style={{ color: "var(--gold)" }}>
+            <span style={{ color: "#E53E3E" }}>
               That Brings Your Wheels Back to Life
             </span>
           </h2>

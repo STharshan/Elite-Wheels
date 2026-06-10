@@ -85,7 +85,7 @@ export default function Testimonial() {
   });
 
   return (
-    <section id="testimonial" className="w-full py-10 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors duration-500" data-aos="fade-up">
+    <section id="testimonial" className="w-full py-10 bg-[linear-gradient(180deg,var(--bg)_0%,var(--surface)_100%)] transition-colors duration-500" data-aos="fade-up">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         {/* Heading Section */}
@@ -108,7 +108,7 @@ export default function Testimonial() {
           </div>
 
           <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold uppercase tracking-widest transition-colors mb-4">
-            Customer Stories
+            Customer <span className="text-[#E53E3E]">Stories</span>
           </h2>
           <p className="text-[var(--muted)] font-medium text-sm sm:text-base max-w-2xl mx-auto">
             Real feedback from local Glasgow drivers who've experienced the Elite Wheels Glasgow difference.

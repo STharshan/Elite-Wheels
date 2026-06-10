@@ -88,7 +88,7 @@ const Navbar = () => {
             <div className="hidden lg:flex items-center space-x-4">
               <a
                 href="tel:07909445101"
-              className="px-4 xl:px-6 py-2.5 xl:py-3 border-2 border-white text-white text-sm xl:text-base rounded-full hover:bg-[var(--gold)] hover:border-[var(--gold)] hover:text-black transition-all duration-300 whitespace-nowrap"
+              className="px-4 xl:px-6 py-2.5 xl:py-3 border-2 border-white text-white text-sm xl:text-base rounded-full hover:bg-[var(--cta)] hover:border-[var(--cta)] hover:text-white transition-all duration-300 whitespace-nowrap"
               >
                 Call 07909 445101
               </a>
@@ -159,7 +159,7 @@ const Navbar = () => {
           <div className="p-4 sm:p-6 border-t border-white/10 space-y-3">
             <a
               href="tel:07909445101"
-              className="block w-full px-6 py-3 bg-[var(--gold)] text-black text-center rounded-full hover:bg-[var(--gold-deep)] transition-all duration-300 font-medium"
+              className="block w-full px-6 py-3 bg-[var(--cta)] text-white text-center rounded-full hover:brightness-90 transition-all duration-300 font-medium"
             >
               Call 07909 445101
             </a>

@@ -91,13 +91,13 @@ const WorkGallery = () => {
   };
 
   return (
-    <section className="py-10 sm:py-14 lg:py-16 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors" data-aos="fade-up">
+    <section className="py-10 sm:py-14 lg:py-16 bg-[linear-gradient(180deg,var(--bg)_0%,var(--surface)_100%)] transition-colors" data-aos="fade-up">
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Title */}
         <div className="text-center mb-10" data-aos="fade-up">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-            Our Work Gallery
+            Our Work <span className="text-[#E53E3E]">Gallery</span>
           </h2>
           <p className="mt-2 text-[var(--muted)] text-sm sm:text-base max-w-xl mx-auto">
             See the amazing transformations of classic cars through our restoration process

@@ -43,7 +43,7 @@ const FAQSection = () => {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <section className="bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] py-8 sm:py-10 md:py-12" data-aos="fade-up">
+    <section className="bg-[linear-gradient(180deg,var(--bg)_0%,var(--surface)_100%)] py-8 sm:py-10 md:py-12" data-aos="fade-up">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16">
 
         {/* LEFT */}

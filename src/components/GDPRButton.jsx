@@ -52,14 +52,14 @@ export default function GDPRConsent() {
           <div className="flex justify-center gap-3">
             <button
               onClick={handleReject}
-              className="px-5 py-2 rounded-md bg-white/10 text-white text-sm hover:border-[var(--gold)] hover:text-[var(--gold)] border border-white/10 transition"
+              className="px-5 py-2 rounded-md bg-white/10 text-white text-sm hover:border-[var(--cta)] hover:text-[var(--cta)] border border-white/10 transition"
             >
               Reject
             </button>
             <button
               onClick={handleAccept}
-              className="px-5 py-2 rounded-md text-sm text-black bg-[var(--gold)] hover:bg-[var(--gold-deep)] transition"
-            >
+            className="px-5 py-2 rounded-md text-sm text-white bg-[var(--cta)] hover:brightness-90 transition"
+          >
               Accept
             </button>
           </div>
@@ -71,7 +71,7 @@ export default function GDPRConsent() {
         <div className="fixed bottom-6 right-6 z-40">
           <button
             onClick={handleIconClick}
-            className="w-10 h-10 rounded-full bg-[var(--gold)] shadow-lg border border-white/20 flex items-center justify-center hover:scale-105 transition cursor-pointer"
+            className="w-10 h-10 rounded-full bg-[var(--cta)] shadow-lg border border-white/20 flex items-center justify-center hover:scale-105 transition cursor-pointer"
             title="Cookie Preferences"
           >
             <img

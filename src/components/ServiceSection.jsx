@@ -180,12 +180,12 @@ const ServiceSection = () => {
   return (
     <section
       id="services"
-      className="w-full min-h-screen scroll-m-15 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 transition-colors duration-500"
+      className="w-full min-h-screen scroll-m-15 bg-[linear-gradient(180deg,var(--bg)_0%,var(--surface)_100%)] flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 transition-colors duration-500"
       data-aos="fade-up"
     >
       <div className="mb-8 md:mb-12 text-center">
         <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold uppercase tracking-widest transition-colors">
-          Our Services
+          Our <span className="text-[#E53E3E]">Services</span>
         </h2>
         <p className="text-[var(--muted)] font-medium text-xs sm:text-sm mt-2">
           Showing {activeCard + 1} of {cards.length}
@@ -253,7 +253,7 @@ const ServiceSection = () => {
 
                 <Link
                   to={cards[activeCard].link}
-                  className="w-full bg-[var(--gold)] text-black py-3 rounded-lg font-bold text-center hover:bg-[var(--gold-deep)] transition-colors mt-2"
+                  className="w-full bg-[var(--cta)] text-white py-3 rounded-lg font-bold text-center hover:brightness-90 transition-colors mt-2"
                 >
                   LEARN MORE
                 </Link>
@@ -337,7 +337,7 @@ const ServiceSection = () => {
 
                         <Link
                           to={card.link}
-                          className="bg-[var(--gold)] text-black px-6 py-2.5 rounded-lg text-xs font-bold hover:bg-[var(--gold-deep)] transition-colors"
+                          className="bg-[var(--cta)] text-white px-6 py-2.5 rounded-lg text-xs font-bold hover:brightness-90 transition-colors"
                         >
                           LEARN MORE
                         </Link>

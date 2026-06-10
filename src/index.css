@@ -8,8 +8,10 @@
   --muted: #9ca3af;
   --gold: #d4a843;
   --gold-deep: #c9973a;
+  --cta: #e53e3e;
   --primary: var(--gold);
   --accent: var(--gold-deep);
+  --highlight: var(--cta);
 }
 
 html {
@@ -22,7 +24,8 @@ body {
   font-family: inherit;
   background:
     radial-gradient(circle at top, rgba(212, 168, 67, 0.14), transparent 32%),
-    linear-gradient(180deg, #111111 0%, #1a1a1a 100%);
+    radial-gradient(circle at bottom right, rgba(229, 62, 62, 0.09), transparent 28%),
+    linear-gradient(180deg, var(--bg) 0%, var(--surface) 100%);
   color: var(--text);
 }
 
@@ -31,6 +34,6 @@ a {
 }
 
 ::selection {
-  background: rgba(212, 168, 67, 0.28);
+  background: rgba(229, 62, 62, 0.28);
   color: #ffffff;
 }

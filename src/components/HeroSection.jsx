@@ -13,7 +13,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative min-h-screen py-30 bg-black text-white flex items-center"
+      className="relative min-h-screen py-30 bg-[var(--bg)] text-white flex items-center"
       data-aos="fade-up"
     >
       {/* Background */}
@@ -24,7 +24,7 @@ export default function HeroSection() {
           className="w-full h-full object-cover"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-black/75"></div>
+        <div className="absolute inset-0 bg-[var(--bg)]/75"></div>
       </div>
 
       {/* Content */}
@@ -37,7 +37,7 @@ export default function HeroSection() {
             className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-wide uppercase"
           >
             Premium Alloy Wheel Refurbishment in{" "}
-            <span className="text-[var(--gold)]">Glasgow</span>
+            <span className="text-[#E53E3E]">Glasgow</span>
           </h1>
 
           {/* Subheading */}
@@ -67,7 +67,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row justify-center gap-4 pt-4"
           >
             <div
-              className="inline-flex items-center justify-center gap-2 bg-[var(--gold)] hover:bg-[var(--gold-deep)] px-8 py-3 rounded-md text-lg font-semibold tracking-wide text-black transition"
+              className="inline-flex items-center justify-center gap-2 bg-[var(--cta)] hover:brightness-90 px-8 py-3 rounded-md text-lg font-semibold tracking-wide text-white transition"
             >
               Get a Free Quote
             </div>

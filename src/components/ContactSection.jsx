@@ -60,13 +60,13 @@ Message: ${formData.message}
   };
 
   return (
-    <section id="contact" className="w-full py-14 bg-[linear-gradient(180deg,#111111_0%,#1a1a1a_100%)] transition-colors" data-aos="fade-up">
+    <section id="contact" className="w-full py-14 bg-[linear-gradient(180deg,var(--bg)_0%,var(--surface)_100%)] transition-colors" data-aos="fade-up">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}
         <div className="text-center mb-14" data-aos="fade-up">
           <h2 className="text-4xl md:text-5xl font-semibold text-white mb-4">
-            Get In Touch
+            Get In <span className="text-[#E53E3E]">Touch</span>  
           </h2>
           <p className="text-lg text-[var(--muted)] max-w-2xl mx-auto">
             Have questions? Contact Elite Wheels Glasgow today for a free quote or to schedule your repair.
@@ -195,7 +195,7 @@ Message: ${formData.message}
                     value={formData.service}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-white/10 bg-black text-white focus:ring-2 focus:ring-[var(--gold)] outline-none transition"
+                className="w-full px-4 py-3 rounded-lg border border-white/10 bg-black text-white focus:ring-2 focus:ring-[var(--cta)] outline-none transition"
                   >
                     <option value="">Choose a service</option>
                     {services.map((service) => (
@@ -225,14 +225,14 @@ Message: ${formData.message}
                   onChange={handleChange}
                   required
                   placeholder="Tell us about your vehicle issue..."
-                  className="w-full px-4 py-3 rounded-lg border border-white/10 bg-black text-white focus:ring-2 focus:ring-[var(--gold)] outline-none resize-none transition"
+                  className="w-full px-4 py-3 rounded-lg border border-white/10 bg-black text-white focus:ring-2 focus:ring-[var(--cta)] outline-none resize-none transition"
                 />
               </div>
 
               {/* Button */}
               <button
                 type="submit"
-                className="w-full bg-[var(--gold)] text-black font-semibold py-4 rounded-lg hover:bg-[var(--gold-deep)] hover:scale-[1.02] active:scale-[0.98] transition-transform duration-200"
+                className="w-full bg-[var(--cta)] text-white font-semibold py-4 rounded-lg hover:brightness-90 hover:scale-[1.02] active:scale-[0.98] transition-transform duration-200"
               >
                 Send Message
               </button>
@@ -262,7 +262,7 @@ function InputField({ label, name, type = "text", place, value, onChange, requir
         onChange={onChange}
         required={required}
         placeholder={place}
-        className="w-full px-4 py-3 rounded-lg border border-white/10 bg-black text-white focus:ring-2 focus:ring-[var(--gold)] outline-none transition"
+        className="w-full px-4 py-3 rounded-lg border border-white/10 bg-black text-white focus:ring-2 focus:ring-[var(--cta)] outline-none transition"
       />
     </div>
   );
