@@ -16,7 +16,7 @@ const ServiceSection = () => {
       description:
         "High-durability powder coating service that restores and enhances alloy wheels with a smooth, factory-quality finish. Available in a wide range of colours, this process provides long-lasting protection against corrosion, chips, and road damage while improving overall appearance.",
       cost: 'Up to 18" - £240 | 19-20" - £280 | 21-22" - £300 | 23-24" - £320',
-      media: "/Carparkding.jpeg",
+      media: "/g11.jpg",
       tags:
         "Powder coating, alloy wheel coating, wheel painting Glasgow, custom wheel colours, wheel refurbishment Glasgow",
       link: "/powder-coating",
@@ -27,7 +27,7 @@ const ServiceSection = () => {
       description:
         "Precision diamond cutting service that restores the original machined finish of alloy wheels. Using specialist CNC lathe equipment, we remove surface imperfections and create a sharp, high-gloss finish ideal for premium and performance vehicles.",
       cost: 'Up to 18" - £300 | 19-20" - £340 | 21-22" - £360 | 23-24" - £380',
-      media: "/Largeimpact.jpeg",
+      media: "/g14.jpg",
       tags:
         "Diamond cut wheels Glasgow, CNC wheel cutting, alloy wheel repair, premium wheel refurbishment, wheel restoration Glasgow",
       link: "/diamond-cutting",
@@ -38,7 +38,7 @@ const ServiceSection = () => {
       description:
         "Complete wheel restoration service designed to bring damaged, faded, or worn alloys back to near-new condition. Includes stripping, repairing, refinishing, and sealing for a flawless finish.",
       cost: "From £220 per set",
-      media: "/Complexdents.jpeg",
+      media: "/g16.jpg",
       tags:
         "wheel refurbishment Glasgow, alloy restoration, full wheel restoration, wheel repair service, refurbished alloys",
       link: "/wheel-refurbishment",
@@ -49,7 +49,7 @@ const ServiceSection = () => {
       description:
         "Specialist hydraulic straightening process to correct bent or distorted alloy wheels caused by potholes or impact damage. Restores structural integrity and ensures safe driving performance.",
       cost: "From £60 per wheel",
-      media: "/Creases.jpeg",
+      media: "/g4.jpg",
       tags:
         "wheel straightening Glasgow, bent alloy repair, pothole wheel damage repair, alloy wheel alignment fix",
       link: "/wheel-straightening",
@@ -60,7 +60,7 @@ const ServiceSection = () => {
       description:
         "Professional welding and repair service for cracked alloy wheels. We assess damage, weld using specialist techniques, and restore strength and safety to factory standards.",
       cost: "From £50 per repair",
-      media: "/Haildamage.jpeg",
+      media: "/g5.jpg",
       tags:
         "alloy wheel crack repair, wheel welding Glasgow, damaged alloy repair, safety wheel repair, rim crack fixing",
       link: "/crack-repairs",
@@ -71,7 +71,7 @@ const ServiceSection = () => {
       description:
         "Custom colour change service allowing you to completely transform the look of your wheels. Choose from gloss, matte, satin, or custom finishes to match your vehicle styling.",
       cost: "From £240 depending on wheel size and finish",
-      media: "/Dingdamage.jpeg",
+      media: "/g6.jpg",
       tags:
         "wheel colour change Glasgow, custom alloy colours, rim painting service, bespoke wheel finish, car styling wheels",
       link: "/colour-changes",
@@ -82,7 +82,7 @@ const ServiceSection = () => {
       description:
         "High-temperature brake caliper painting service designed to enhance the visual appeal of your braking system while protecting against heat, corrosion, and brake dust.",
       cost: "From £120 per axle",
-      media: "/Bodyline.jpeg",
+      media: "/g7.jpg",
       tags:
         "brake caliper painting Glasgow, caliper colour change, performance brake styling, custom brake calipers, car detailing upgrades",
       link: "/brake-caliper-painting",
@@ -93,7 +93,7 @@ const ServiceSection = () => {
       description:
         "Fast and effective repair service for kerbed, scratched, or scuffed alloy wheels. Restores surface finish and blends repairs seamlessly with the original wheel design.",
       cost: "From £40 per wheel",
-      media: "/Carparkding.jpeg",
+      media: "/g8.jpg",
       tags:
         "kerb damage repair Glasgow, alloy scratch repair, rim scuff repair, wheel touch-up service, curb rash fix",
       link: "/kerb-damage-repairs",
@@ -104,7 +104,7 @@ const ServiceSection = () => {
       description:
         "Fully bespoke wheel finishing service offering unlimited colour options and effects. Ideal for unique builds, show cars, or personal styling preferences.",
       cost: "From £260 depending on finish and complexity",
-      media: "/Largeimpact.jpeg",
+      media: "/g10.jpg",
       tags:
         "custom alloy wheels Glasgow, bespoke wheel colours, unique wheel finishes, car customization Glasgow, premium wheel styling",
       link: "/custom-wheel-colours",
@@ -326,7 +326,7 @@ const ServiceSection = () => {
                         </div>
                       </div>
 
-                      <div className="w-full h-72 lg:h-[22rem] overflow-hidden rounded-2xl shadow-inner border border-white/10 my-4 bg-white" data-aos="fade-up" data-aos-delay="150">
+                      <div className="w-full h-72 lg:h-[25rem] overflow-hidden rounded-2xl shadow-inner border border-white/10 my-4 bg-white" data-aos="fade-up" data-aos-delay="150">
                         {renderMedia(card, "group-hover:scale-105 transition-transform duration-1000")}
                       </div>
 

@@ -43,8 +43,8 @@ const cardData = [
     altText: "Classic car restoration set 8",
   },
   {
-    beforeImageUrl: "/g17.jpg",
-    afterImageUrl: "/g18.jpg",
+    beforeImageUrl: "/g18.jpg",
+    afterImageUrl: "/g17.jpg",
     altText: "Classic car restoration set 9",
   },
   {

@@ -19,7 +19,7 @@ export default function HeroSection() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/hero-engine.jpg"
+          src="/hero.jpg"
           alt="Elite Wheels Glasgow workshop background"
           className="w-full h-full object-cover"
           loading="lazy"

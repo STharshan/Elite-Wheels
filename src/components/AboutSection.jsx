@@ -43,7 +43,7 @@ export default function AboutSection() {
             {/* IMAGE */}
             <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="/pexels-photo-17045319-2880w.webp"
+                src="/about.jpg"
                 alt="image"
                 className="w-full h-[420px] object-cover"
                 loading="lazy"
